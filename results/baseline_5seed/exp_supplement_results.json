@@ -1,0 +1,758 @@
+{
+  "C_disambiguation": {
+    "per_seed": [
+      {
+        "seed": "seed_1024",
+        "desc": 58,
+        "name": 6,
+        "neither": 35,
+        "pairs": [
+          {
+            "label": "amber(name)+flint(enc)",
+            "desc": 3,
+            "name": 1,
+            "neither": 2
+          },
+          {
+            "label": "bear(name)+mountain(enc)",
+            "desc": 9,
+            "name": 0,
+            "neither": 1
+          },
+          {
+            "label": "horse(name)+louse(enc)",
+            "desc": 6,
+            "name": 2,
+            "neither": 2
+          },
+          {
+            "label": "hill(name)+amber(enc)",
+            "desc": 4,
+            "name": 1,
+            "neither": 6
+          },
+          {
+            "label": "snow(name)+vine(enc)",
+            "desc": 8,
+            "name": 1,
+            "neither": 4
+          },
+          {
+            "label": "moon(name)+smoke(enc)",
+            "desc": 4,
+            "name": 0,
+            "neither": 7
+          },
+          {
+            "label": "root(name)+seed(enc)",
+            "desc": 4,
+            "name": 0,
+            "neither": 4
+          },
+          {
+            "label": "grass(name)+cliff(enc)",
+            "desc": 8,
+            "name": 0,
+            "neither": 3
+          },
+          {
+            "label": "leaf(name)+horse(enc)",
+            "desc": 4,
+            "name": 0,
+            "neither": 4
+          },
+          {
+            "label": "moon(name)+mushroom(enc)",
+            "desc": 8,
+            "name": 1,
+            "neither": 2
+          }
+        ]
+      },
+      {
+        "seed": "seed_123",
+        "desc": 64,
+        "name": 9,
+        "neither": 21,
+        "pairs": [
+          {
+            "label": "amber(name)+flint(enc)",
+            "desc": 4,
+            "name": 0,
+            "neither": 2
+          },
+          {
+            "label": "bear(name)+mountain(enc)",
+            "desc": 8,
+            "name": 0,
+            "neither": 2
+          },
+          {
+            "label": "horse(name)+louse(enc)",
+            "desc": 8,
+            "name": 1,
+            "neither": 2
+          },
+          {
+            "label": "hill(name)+amber(enc)",
+            "desc": 6,
+            "name": 1,
+            "neither": 2
+          },
+          {
+            "label": "snow(name)+vine(enc)",
+            "desc": 9,
+            "name": 2,
+            "neither": 2
+          },
+          {
+            "label": "moon(name)+smoke(enc)",
+            "desc": 5,
+            "name": 0,
+            "neither": 4
+          },
+          {
+            "label": "root(name)+seed(enc)",
+            "desc": 3,
+            "name": 1,
+            "neither": 2
+          },
+          {
+            "label": "grass(name)+cliff(enc)",
+            "desc": 10,
+            "name": 0,
+            "neither": 1
+          },
+          {
+            "label": "leaf(name)+horse(enc)",
+            "desc": 5,
+            "name": 1,
+            "neither": 3
+          },
+          {
+            "label": "moon(name)+mushroom(enc)",
+            "desc": 6,
+            "name": 3,
+            "neither": 1
+          }
+        ]
+      },
+      {
+        "seed": "seed_42",
+        "desc": 37,
+        "name": 15,
+        "neither": 61,
+        "pairs": [
+          {
+            "label": "amber(name)+flint(enc)",
+            "desc": 2,
+            "name": 0,
+            "neither": 6
+          },
+          {
+            "label": "bear(name)+mountain(enc)",
+            "desc": 5,
+            "name": 0,
+            "neither": 7
+          },
+          {
+            "label": "horse(name)+louse(enc)",
+            "desc": 6,
+            "name": 3,
+            "neither": 3
+          },
+          {
+            "label": "hill(name)+amber(enc)",
+            "desc": 1,
+            "name": 1,
+            "neither": 10
+          },
+          {
+            "label": "snow(name)+vine(enc)",
+            "desc": 5,
+            "name": 4,
+            "neither": 4
+          },
+          {
+            "label": "moon(name)+smoke(enc)",
+            "desc": 4,
+            "name": 0,
+            "neither": 8
+          },
+          {
+            "label": "root(name)+seed(enc)",
+            "desc": 3,
+            "name": 1,
+            "neither": 6
+          },
+          {
+            "label": "grass(name)+cliff(enc)",
+            "desc": 6,
+            "name": 1,
+            "neither": 6
+          },
+          {
+            "label": "leaf(name)+horse(enc)",
+            "desc": 2,
+            "name": 2,
+            "neither": 6
+          },
+          {
+            "label": "moon(name)+mushroom(enc)",
+            "desc": 3,
+            "name": 3,
+            "neither": 5
+          }
+        ]
+      },
+      {
+        "seed": "seed_456",
+        "desc": 58,
+        "name": 10,
+        "neither": 26,
+        "pairs": [
+          {
+            "label": "amber(name)+flint(enc)",
+            "desc": 5,
+            "name": 0,
+            "neither": 3
+          },
+          {
+            "label": "bear(name)+mountain(enc)",
+            "desc": 9,
+            "name": 0,
+            "neither": 1
+          },
+          {
+            "label": "horse(name)+louse(enc)",
+            "desc": 6,
+            "name": 2,
+            "neither": 3
+          },
+          {
+            "label": "hill(name)+amber(enc)",
+            "desc": 5,
+            "name": 1,
+            "neither": 3
+          },
+          {
+            "label": "snow(name)+vine(enc)",
+            "desc": 6,
+            "name": 1,
+            "neither": 5
+          },
+          {
+            "label": "moon(name)+smoke(enc)",
+            "desc": 4,
+            "name": 1,
+            "neither": 3
+          },
+          {
+            "label": "root(name)+seed(enc)",
+            "desc": 3,
+            "name": 1,
+            "neither": 1
+          },
+          {
+            "label": "grass(name)+cliff(enc)",
+            "desc": 9,
+            "name": 1,
+            "neither": 1
+          },
+          {
+            "label": "leaf(name)+horse(enc)",
+            "desc": 5,
+            "name": 1,
+            "neither": 3
+          },
+          {
+            "label": "moon(name)+mushroom(enc)",
+            "desc": 6,
+            "name": 2,
+            "neither": 3
+          }
+        ]
+      },
+      {
+        "seed": "seed_789",
+        "desc": 55,
+        "name": 14,
+        "neither": 28,
+        "pairs": [
+          {
+            "label": "amber(name)+flint(enc)",
+            "desc": 3,
+            "name": 1,
+            "neither": 3
+          },
+          {
+            "label": "bear(name)+mountain(enc)",
+            "desc": 9,
+            "name": 0,
+            "neither": 1
+          },
+          {
+            "label": "horse(name)+louse(enc)",
+            "desc": 7,
+            "name": 2,
+            "neither": 2
+          },
+          {
+            "label": "hill(name)+amber(enc)",
+            "desc": 3,
+            "name": 2,
+            "neither": 5
+          },
+          {
+            "label": "snow(name)+vine(enc)",
+            "desc": 6,
+            "name": 3,
+            "neither": 4
+          },
+          {
+            "label": "moon(name)+smoke(enc)",
+            "desc": 5,
+            "name": 1,
+            "neither": 4
+          },
+          {
+            "label": "root(name)+seed(enc)",
+            "desc": 4,
+            "name": 0,
+            "neither": 2
+          },
+          {
+            "label": "grass(name)+cliff(enc)",
+            "desc": 10,
+            "name": 0,
+            "neither": 1
+          },
+          {
+            "label": "leaf(name)+horse(enc)",
+            "desc": 5,
+            "name": 1,
+            "neither": 2
+          },
+          {
+            "label": "moon(name)+mushroom(enc)",
+            "desc": 3,
+            "name": 4,
+            "neither": 4
+          }
+        ]
+      }
+    ],
+    "desc_mean": 54.4,
+    "desc_std": 9.2,
+    "name_mean": 10.8,
+    "name_std": 3.3
+  },
+  "gender_swap_perdim": {
+    "T": {
+      "full_mean": 0.8892,
+      "full_std": 0.1171,
+      "swap_mean": 0.8886,
+      "swap_std": 0.1119,
+      "diff_mean": -0.0006,
+      "diff_std": 0.0067
+    },
+    "H": {
+      "full_mean": 0.8118,
+      "full_std": 0.0423,
+      "swap_mean": 0.8036,
+      "swap_std": 0.0397,
+      "diff_mean": -0.0082,
+      "diff_std": 0.0094
+    },
+    "M": {
+      "full_mean": 0.8774,
+      "full_std": 0.0609,
+      "swap_mean": 0.8842,
+      "swap_std": 0.0606,
+      "diff_mean": 0.0068,
+      "diff_std": 0.0094
+    },
+    "V": {
+      "full_mean": 0.8858,
+      "full_std": 0.04,
+      "swap_mean": 0.8742,
+      "swap_std": 0.0588,
+      "diff_mean": -0.0116,
+      "diff_std": 0.0319
+    },
+    "Z": {
+      "full_mean": 0.8226,
+      "full_std": 0.0431,
+      "swap_mean": 0.8088,
+      "swap_std": 0.0666,
+      "diff_mean": -0.0138,
+      "diff_std": 0.0515
+    },
+    "A": {
+      "full_mean": 0.649,
+      "full_std": 0.2456,
+      "swap_mean": 0.6476,
+      "swap_std": 0.2498,
+      "diff_mean": -0.0014,
+      "diff_std": 0.0476
+    },
+    "W": {
+      "full_mean": 0.773,
+      "full_std": 0.0332,
+      "swap_mean": 0.7636,
+      "swap_std": 0.0274,
+      "diff_mean": -0.0094,
+      "diff_std": 0.0121
+    },
+    "R": {
+      "full_mean": 0.6298,
+      "full_std": 0.1598,
+      "swap_mean": 0.6144,
+      "swap_std": 0.1705,
+      "diff_mean": -0.0154,
+      "diff_std": 0.0327
+    },
+    "O": {
+      "full_mean": 0.7758,
+      "full_std": 0.1303,
+      "swap_mean": 0.7784,
+      "swap_std": 0.1377,
+      "diff_mean": 0.0026,
+      "diff_std": 0.0235
+    },
+    "S": {
+      "full_mean": 0.7012,
+      "full_std": 0.0722,
+      "swap_mean": 0.6864,
+      "swap_std": 0.0744,
+      "diff_mean": -0.0148,
+      "diff_std": 0.033
+    },
+    "F": {
+      "full_mean": 0.8748,
+      "full_std": 0.069,
+      "swap_mean": 0.8136,
+      "swap_std": 0.0684,
+      "diff_mean": -0.0612,
+      "diff_std": 0.0422
+    },
+    "L": {
+      "full_mean": 0.8988,
+      "full_std": 0.0652,
+      "swap_mean": 0.8116,
+      "swap_std": 0.1058,
+      "diff_mean": -0.0872,
+      "diff_std": 0.0658
+    },
+    "An": {
+      "full_mean": 0.951,
+      "full_std": 0.0358,
+      "swap_mean": 0.8022,
+      "swap_std": 0.1874,
+      "diff_mean": -0.1488,
+      "diff_std": 0.1534
+    }
+  },
+  "interpretability": {
+    "n_seeds": 3,
+    "high_specificity": {
+      "(0, 0, 'A')": {
+        "mean": 2.46,
+        "std": 1.68
+      },
+      "(0, 0, 'An')": {
+        "mean": 2.35,
+        "std": 0.99
+      },
+      "(0, 0, 'F')": {
+        "mean": 2.01,
+        "std": 0.44
+      },
+      "(0, 0, 'L')": {
+        "mean": 2.46,
+        "std": 1.42
+      },
+      "(0, 0, 'M')": {
+        "mean": 3.27,
+        "std": 0.46
+      },
+      "(0, 0, 'S')": {
+        "mean": 2.03,
+        "std": 0.98
+      },
+      "(0, 0, 'T')": {
+        "mean": 5.94,
+        "std": 3.42
+      },
+      "(0, 0, 'V')": {
+        "mean": 2.89,
+        "std": 1.48
+      },
+      "(0, 0, 'W')": {
+        "mean": 3.91,
+        "std": 0.88
+      },
+      "(0, 0, 'Z')": {
+        "mean": 2.14,
+        "std": 0.6
+      },
+      "(0, 1, 'A')": {
+        "mean": 2.45,
+        "std": 1.5
+      },
+      "(0, 1, 'F')": {
+        "mean": 2.64,
+        "std": 1.14
+      },
+      "(0, 1, 'H')": {
+        "mean": 4.39,
+        "std": 2.68
+      },
+      "(0, 1, 'L')": {
+        "mean": 2.56,
+        "std": 0.8
+      },
+      "(0, 1, 'M')": {
+        "mean": 3.52,
+        "std": 3.0
+      },
+      "(0, 1, 'S')": {
+        "mean": 3.39,
+        "std": 0.76
+      },
+      "(0, 1, 'V')": {
+        "mean": 3.63,
+        "std": 2.11
+      },
+      "(0, 1, 'W')": {
+        "mean": 2.29,
+        "std": 0.92
+      },
+      "(0, 1, 'Z')": {
+        "mean": 3.29,
+        "std": 0.81
+      },
+      "(0, 2, 'H')": {
+        "mean": 3.72,
+        "std": 2.63
+      },
+      "(0, 2, 'M')": {
+        "mean": 2.1,
+        "std": 1.69
+      },
+      "(0, 2, 'R')": {
+        "mean": 2.8,
+        "std": 2.19
+      },
+      "(0, 2, 'T')": {
+        "mean": 2.03,
+        "std": 1.24
+      },
+      "(0, 2, 'Z')": {
+        "mean": 2.03,
+        "std": 1.01
+      },
+      "(0, 3, 'An')": {
+        "mean": 2.03,
+        "std": 1.16
+      },
+      "(0, 3, 'F')": {
+        "mean": 2.05,
+        "std": 0.77
+      },
+      "(0, 3, 'H')": {
+        "mean": 2.68,
+        "std": 1.8
+      },
+      "(0, 3, 'O')": {
+        "mean": 2.81,
+        "std": 1.51
+      },
+      "(0, 3, 'V')": {
+        "mean": 2.18,
+        "std": 1.03
+      },
+      "(0, 3, 'Z')": {
+        "mean": 3.05,
+        "std": 1.89
+      },
+      "(1, 0, 'F')": {
+        "mean": 2.24,
+        "std": 0.87
+      },
+      "(1, 1, 'V')": {
+        "mean": 2.36,
+        "std": 1.9
+      },
+      "(1, 2, 'An')": {
+        "mean": 3.52,
+        "std": 1.99
+      },
+      "(1, 2, 'M')": {
+        "mean": 2.04,
+        "std": 2.07
+      },
+      "(1, 2, 'R')": {
+        "mean": 3.0,
+        "std": 2.65
+      },
+      "(1, 2, 'T')": {
+        "mean": 3.15,
+        "std": 3.32
+      },
+      "(1, 2, 'Z')": {
+        "mean": 2.66,
+        "std": 1.83
+      },
+      "(2, 0, 'A')": {
+        "mean": 2.14,
+        "std": 1.53
+      },
+      "(2, 0, 'M')": {
+        "mean": 2.12,
+        "std": 0.86
+      },
+      "(2, 0, 'R')": {
+        "mean": 2.29,
+        "std": 2.32
+      },
+      "(2, 0, 'V')": {
+        "mean": 2.55,
+        "std": 2.18
+      },
+      "(2, 1, 'A')": {
+        "mean": 2.51,
+        "std": 1.23
+      },
+      "(2, 1, 'F')": {
+        "mean": 2.4,
+        "std": 1.99
+      },
+      "(2, 1, 'H')": {
+        "mean": 3.24,
+        "std": 1.24
+      },
+      "(2, 1, 'O')": {
+        "mean": 2.25,
+        "std": 1.27
+      },
+      "(2, 2, 'A')": {
+        "mean": 2.24,
+        "std": 0.94
+      },
+      "(2, 2, 'R')": {
+        "mean": 2.42,
+        "std": 2.72
+      },
+      "(2, 2, 'W')": {
+        "mean": 2.02,
+        "std": 0.95
+      },
+      "(2, 3, 'T')": {
+        "mean": 2.29,
+        "std": 1.74
+      },
+      "(3, 0, 'Z')": {
+        "mean": 2.16,
+        "std": 2.44
+      },
+      "(3, 1, 'An')": {
+        "mean": 2.6,
+        "std": 3.14
+      },
+      "(3, 1, 'R')": {
+        "mean": 2.49,
+        "std": 2.2
+      },
+      "(3, 2, 'A')": {
+        "mean": 2.04,
+        "std": 0.47
+      }
+    },
+    "cross_diag": {
+      "mean": 0.938,
+      "std": 0.007
+    },
+    "cross_off": {
+      "mean": 0.608,
+      "std": 0.006
+    },
+    "per_seed": [
+      {
+        "seed": "seed_1024",
+        "probe_name": {
+          "0": 0.31230769230769234,
+          "1": 0.30761538461538457,
+          "2": 0.31476923076923075,
+          "3": 0.32584615384615384,
+          "4": 0.32184615384615384
+        },
+        "cross_diag": 0.9474615384615385,
+        "cross_off": 0.6124294871794873,
+        "probe_masked": {
+          "0": 0.365,
+          "1": 0.8838461538461537,
+          "2": 0.8673846153846154,
+          "3": 0.8502307692307691,
+          "4": 0.8257692307692308
+        },
+        "causal": {
+          "0": 0.5236363636363636,
+          "1": 0.3418181818181818,
+          "2": 0.2690909090909091,
+          "3": 0.0
+        }
+      },
+      {
+        "seed": "seed_123",
+        "probe_name": {
+          "0": 0.2856923076923077,
+          "1": 0.31707692307692315,
+          "2": 0.3156923076923077,
+          "3": 0.30999999999999994,
+          "4": 0.30776923076923074
+        },
+        "cross_diag": 0.9302307692307692,
+        "cross_off": 0.6121282051282052,
+        "probe_masked": {
+          "0": 0.365,
+          "1": 0.9207692307692308,
+          "2": 0.8823076923076922,
+          "3": 0.8508461538461537,
+          "4": 0.8312307692307692
+        },
+        "causal": {
+          "0": 0.5963636363636363,
+          "1": 0.48727272727272725,
+          "2": 0.1781818181818182,
+          "3": 0.0
+        }
+      },
+      {
+        "seed": "seed_42",
+        "probe_name": {
+          "0": 0.2935384615384615,
+          "1": 0.317076923076923,
+          "2": 0.3171538461538462,
+          "3": 0.3005384615384615,
+          "4": 0.29830769230769233
+        },
+        "cross_diag": 0.934923076923077,
+        "cross_off": 0.5994935897435897,
+        "probe_masked": {
+          "0": 0.365,
+          "1": 0.8861538461538461,
+          "2": 0.861076923076923,
+          "3": 0.8156153846153846,
+          "4": 0.7842307692307691
+        },
+        "causal": {
+          "0": 0.48000000000000004,
+          "1": 0.32000000000000006,
+          "2": 0.15636363636363634,
+          "3": 0.0
+        }
+      }
+    ]
+  }
+}

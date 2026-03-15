@@ -1,0 +1,129 @@
+{
+  "DPh5": {
+    "42": {
+      "seed": 42,
+      "condition": "DPh5",
+      "phase_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "total_steps": 11005,
+      "elapsed_sec": 682.6,
+      "evaluation": {
+        "s1_p_recon": 0.9346,
+        "s2_name": 0.6604,
+        "s2_gender": 0.9554,
+        "s2_interact": 0.0008,
+        "s2_auto": 0.0,
+        "probes": 0.0085
+      }
+    },
+    "123": {
+      "seed": 123,
+      "condition": "DPh5",
+      "phase_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "total_steps": 11209,
+      "elapsed_sec": 700.1,
+      "evaluation": {
+        "s1_p_recon": 0.9327,
+        "s2_name": 0.8438,
+        "s2_gender": 0.9492,
+        "s2_interact": 0.0,
+        "s2_auto": 0.0012,
+        "probes": 0.0
+      }
+    },
+    "456": {
+      "seed": 456,
+      "condition": "DPh5",
+      "phase_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "total_steps": 11161,
+      "elapsed_sec": 430.6,
+      "evaluation": {
+        "s1_p_recon": 0.9308,
+        "s2_name": 0.8619,
+        "s2_gender": 0.9085,
+        "s2_interact": 0.0012,
+        "s2_auto": 0.0,
+        "probes": 0.0
+      }
+    }
+  },
+  "Shuffle": {
+    "42": {
+      "seed": 42,
+      "condition": "Shuffle",
+      "phase_order": [
+        2,
+        1,
+        3,
+        5,
+        4
+      ],
+      "total_steps": 11592,
+      "elapsed_sec": 369.6,
+      "evaluation": {
+        "s1_p_recon": 0.9262,
+        "s2_name": 0.8169,
+        "s2_gender": 0.9938,
+        "s2_interact": 0.7896,
+        "s2_auto": 0.6427,
+        "probes": 0.4957
+      }
+    },
+    "123": {
+      "seed": 123,
+      "condition": "Shuffle",
+      "phase_order": [
+        5,
+        3,
+        2,
+        1,
+        4
+      ],
+      "total_steps": 15105,
+      "elapsed_sec": 554.6,
+      "evaluation": {
+        "s1_p_recon": 0.9285,
+        "s2_name": 0.7677,
+        "s2_gender": 0.9473,
+        "s2_interact": 0.0377,
+        "s2_auto": 0.0377,
+        "probes": 0.0427
+      }
+    },
+    "456": {
+      "seed": 456,
+      "condition": "Shuffle",
+      "phase_order": [
+        2,
+        4,
+        1,
+        5,
+        3
+      ],
+      "total_steps": 12003,
+      "elapsed_sec": 383.9,
+      "evaluation": {
+        "s1_p_recon": 0.9265,
+        "s2_name": 0.9804,
+        "s2_gender": 0.9565,
+        "s2_interact": 0.4546,
+        "s2_auto": 0.4162,
+        "probes": 0.3846
+      }
+    }
+  }
+}

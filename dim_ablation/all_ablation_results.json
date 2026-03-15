@@ -1,0 +1,250 @@
+{
+  "DPh1": {
+    "42": {
+      "seed": 42,
+      "condition": "DPh1",
+      "phase_order": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "total_steps": 6610,
+      "elapsed_sec": 7142.4,
+      "evaluation": {
+        "s1_p_recon": 0.8785,
+        "s2_name": 0.8181,
+        "s2_gender": 0.8515,
+        "s2_interact": 0.9581,
+        "s2_auto": 0.9842,
+        "probes": 0.8547
+      }
+    },
+    "123": {
+      "seed": 123,
+      "condition": "DPh1",
+      "phase_order": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "total_steps": 6632,
+      "elapsed_sec": 1685.2,
+      "evaluation": {
+        "s1_p_recon": 0.8862,
+        "s2_name": 0.6646,
+        "s2_gender": 0.7954,
+        "s2_interact": 0.9654,
+        "s2_auto": 0.9823,
+        "probes": 0.7949
+      }
+    },
+    "456": {
+      "seed": 456,
+      "condition": "DPh1",
+      "phase_order": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "total_steps": 6775,
+      "elapsed_sec": 375.4,
+      "evaluation": {
+        "s1_p_recon": 0.8681,
+        "s2_name": 0.6865,
+        "s2_gender": 0.7915,
+        "s2_interact": 0.9577,
+        "s2_auto": 0.9854,
+        "probes": 0.8376
+      }
+    }
+  },
+  "DPh2": {
+    "42": {
+      "seed": 42,
+      "condition": "DPh2",
+      "phase_order": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "total_steps": 7899,
+      "elapsed_sec": 239.9,
+      "evaluation": {
+        "s1_p_recon": 0.8912,
+        "s2_name": 0.8285,
+        "s2_gender": 0.7746,
+        "s2_interact": 0.9708,
+        "s2_auto": 0.9669,
+        "probes": 0.8889
+      }
+    },
+    "123": {
+      "seed": 123,
+      "condition": "DPh2",
+      "phase_order": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "total_steps": 8082,
+      "elapsed_sec": 254.2,
+      "evaluation": {
+        "s1_p_recon": 0.8915,
+        "s2_name": 0.8119,
+        "s2_gender": 0.7515,
+        "s2_interact": 0.9877,
+        "s2_auto": 0.995,
+        "probes": 0.9402
+      }
+    },
+    "456": {
+      "seed": 456,
+      "condition": "DPh2",
+      "phase_order": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "total_steps": 8388,
+      "elapsed_sec": 2956.3,
+      "evaluation": {
+        "s1_p_recon": 0.9004,
+        "s2_name": 0.8746,
+        "s2_gender": 0.8173,
+        "s2_interact": 0.9838,
+        "s2_auto": 0.9873,
+        "probes": 0.9487
+      }
+    }
+  },
+  "DPh3": {
+    "42": {
+      "seed": 42,
+      "condition": "DPh3",
+      "phase_order": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "total_steps": 11621,
+      "elapsed_sec": 6637.1,
+      "evaluation": {
+        "s1_p_recon": 0.9212,
+        "s2_name": 0.805,
+        "s2_gender": 0.5585,
+        "s2_interact": 0.9562,
+        "s2_auto": 0.9842,
+        "probes": 0.7863
+      }
+    },
+    "123": {
+      "seed": 123,
+      "condition": "DPh3",
+      "phase_order": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "total_steps": 11630,
+      "elapsed_sec": 4261.6,
+      "evaluation": {
+        "s1_p_recon": 0.9246,
+        "s2_name": 0.7385,
+        "s2_gender": 0.35,
+        "s2_interact": 0.9877,
+        "s2_auto": 0.9888,
+        "probes": 0.9402
+      }
+    },
+    "456": {
+      "seed": 456,
+      "condition": "DPh3",
+      "phase_order": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "total_steps": 11941,
+      "elapsed_sec": 2888.3,
+      "evaluation": {
+        "s1_p_recon": 0.9304,
+        "s2_name": 0.8192,
+        "s2_gender": 0.685,
+        "s2_interact": 0.965,
+        "s2_auto": 0.9538,
+        "probes": 0.8547
+      }
+    }
+  },
+  "DPh4": {
+    "42": {
+      "seed": 42,
+      "condition": "DPh4",
+      "phase_order": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "total_steps": 11780,
+      "elapsed_sec": 395.2,
+      "evaluation": {
+        "s1_p_recon": 0.9204,
+        "s2_name": 0.7181,
+        "s2_gender": 0.61,
+        "s2_interact": 0.99,
+        "s2_auto": 0.9954,
+        "probes": 0.906
+      }
+    },
+    "123": {
+      "seed": 123,
+      "condition": "DPh4",
+      "phase_order": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "total_steps": 11677,
+      "elapsed_sec": 384.5,
+      "evaluation": {
+        "s1_p_recon": 0.9235,
+        "s2_name": 0.6785,
+        "s2_gender": 0.5958,
+        "s2_interact": 0.9927,
+        "s2_auto": 0.9912,
+        "probes": 0.9573
+      }
+    },
+    "456": {
+      "seed": 456,
+      "condition": "DPh4",
+      "phase_order": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "total_steps": 11878,
+      "elapsed_sec": 400.1,
+      "evaluation": {
+        "s1_p_recon": 0.9262,
+        "s2_name": 0.7392,
+        "s2_gender": 0.7404,
+        "s2_interact": 0.9862,
+        "s2_auto": 0.99,
+        "probes": 0.9231
+      }
+    }
+  }
+}

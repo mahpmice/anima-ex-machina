@@ -1,0 +1,152 @@
+[
+  {
+    "A_forward": 0.6217,
+    "A_reverse": 0.0675,
+    "E_forward": 0.8969,
+    "E_reverse": 0.0,
+    "novel_dims": 3,
+    "novel_overall": 0.6,
+    "ratio": "0%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.4796,
+    "A_reverse": 0.0471,
+    "E_forward": 0.8995,
+    "E_reverse": 0.0131,
+    "novel_dims": 1,
+    "novel_overall": 0.4615,
+    "ratio": "0%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.6421,
+    "A_reverse": 0.1068,
+    "E_forward": 0.9108,
+    "E_reverse": 0.0087,
+    "novel_dims": 3,
+    "novel_overall": 0.6615,
+    "ratio": "0%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.7575,
+    "A_reverse": 0.1429,
+    "E_forward": 0.9274,
+    "E_reverse": 0.0201,
+    "novel_dims": 3,
+    "novel_overall": 0.7692,
+    "ratio": "0%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.7292,
+    "A_reverse": 0.0314,
+    "E_forward": 0.9056,
+    "E_reverse": 0.0236,
+    "novel_dims": 5,
+    "novel_overall": 0.6769,
+    "ratio": "0%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.6044,
+    "A_reverse": 0.5636,
+    "E_forward": 0.9318,
+    "E_reverse": 0.4712,
+    "novel_dims": 2,
+    "novel_overall": 0.5538,
+    "ratio": "15%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.4286,
+    "A_reverse": 0.5636,
+    "E_forward": 0.9091,
+    "E_reverse": 0.4816,
+    "novel_dims": 2,
+    "novel_overall": 0.3692,
+    "ratio": "15%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.7881,
+    "A_reverse": 0.478,
+    "E_forward": 0.9353,
+    "E_reverse": 0.4362,
+    "novel_dims": 6,
+    "novel_overall": 0.7538,
+    "ratio": "15%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.6805,
+    "A_reverse": 0.5432,
+    "E_forward": 0.9213,
+    "E_reverse": 0.4371,
+    "novel_dims": 4,
+    "novel_overall": 0.6769,
+    "ratio": "15%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.4812,
+    "A_reverse": 0.5518,
+    "E_forward": 0.9187,
+    "E_reverse": 0.5175,
+    "novel_dims": 1,
+    "novel_overall": 0.4462,
+    "ratio": "15%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.5659,
+    "A_reverse": 0.7237,
+    "E_forward": 0.8794,
+    "E_reverse": 0.7386,
+    "novel_dims": 1,
+    "novel_overall": 0.4615,
+    "ratio": "30%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.471,
+    "A_reverse": 0.5542,
+    "E_forward": 0.9178,
+    "E_reverse": 0.7281,
+    "novel_dims": 2,
+    "novel_overall": 0.4308,
+    "ratio": "30%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.5879,
+    "A_reverse": 0.5667,
+    "E_forward": 0.8558,
+    "E_reverse": 0.8671,
+    "novel_dims": 2,
+    "novel_overall": 0.5538,
+    "ratio": "30%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.5008,
+    "A_reverse": 0.5463,
+    "E_forward": 0.9196,
+    "E_reverse": 0.7666,
+    "novel_dims": 2,
+    "novel_overall": 0.4923,
+    "ratio": "30%",
+    "seed": null
+  },
+  {
+    "A_forward": 0.4694,
+    "A_reverse": 0.6452,
+    "E_forward": 0.8916,
+    "E_reverse": 0.9467,
+    "novel_dims": 0,
+    "novel_overall": 0.4,
+    "ratio": "30%",
+    "seed": null
+  }
+]

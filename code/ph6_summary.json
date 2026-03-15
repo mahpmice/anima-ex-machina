@@ -1,0 +1,77 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "per_seed": {
+    "42": {
+      "s3_entity_fullmask": 0.7949,
+      "s3_entity_dims_99": 0,
+      "s3_interact_fullmask": 1.0,
+      "s3_interact_dims_99": 13,
+      "probe_heldout": 0.8205,
+      "animacy_test": 0.8205
+    },
+    "123": {
+      "s3_entity_fullmask": 0.6907,
+      "s3_entity_dims_99": 0,
+      "s3_interact_fullmask": 1.0,
+      "s3_interact_dims_99": 13,
+      "probe_heldout": 0.7436,
+      "animacy_test": 0.8974
+    },
+    "456": {
+      "s3_entity_fullmask": 0.6538,
+      "s3_entity_dims_99": 0,
+      "s3_interact_fullmask": 1.0,
+      "s3_interact_dims_99": 13,
+      "probe_heldout": 0.7436,
+      "animacy_test": 0.8205
+    },
+    "789": {
+      "s3_entity_fullmask": 0.6706,
+      "s3_entity_dims_99": 0,
+      "s3_interact_fullmask": 0.9992,
+      "s3_interact_dims_99": 13,
+      "probe_heldout": 0.7179,
+      "animacy_test": 0.8291
+    },
+    "1024": {
+      "s3_entity_fullmask": 0.8974,
+      "s3_entity_dims_99": 1,
+      "s3_interact_fullmask": 1.0,
+      "s3_interact_dims_99": 13,
+      "probe_heldout": 0.7521,
+      "animacy_test": 0.812
+    }
+  },
+  "summary": {
+    "s3_entity_fullmask": {
+      "mean": 0.7415,
+      "std": 0.0921,
+      "min": 0.6538,
+      "max": 0.8974
+    },
+    "s3_interact_fullmask": {
+      "mean": 0.9998,
+      "std": 0.0003,
+      "min": 0.9992,
+      "max": 1.0
+    },
+    "probe_heldout": {
+      "mean": 0.7555,
+      "std": 0.0344,
+      "min": 0.7179,
+      "max": 0.8205
+    },
+    "animacy_test": {
+      "mean": 0.8359,
+      "std": 0.0312,
+      "min": 0.812,
+      "max": 0.8974
+    }
+  }
+}

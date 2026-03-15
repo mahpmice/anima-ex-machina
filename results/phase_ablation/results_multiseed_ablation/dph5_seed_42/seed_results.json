@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "condition": "DPh5",
+  "phase_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "total_steps": 11005,
+  "elapsed_sec": 682.6,
+  "evaluation": {
+    "s1_p_recon": 0.9346,
+    "s2_name": 0.6604,
+    "s2_gender": 0.9554,
+    "s2_interact": 0.0008,
+    "s2_auto": 0.0,
+    "probes": 0.0085
+  }
+}

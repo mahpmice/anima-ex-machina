@@ -1,0 +1,21 @@
+{
+  "seed": 123,
+  "condition": "Shuffle",
+  "phase_order": [
+    5,
+    3,
+    2,
+    1,
+    4
+  ],
+  "total_steps": 15105,
+  "elapsed_sec": 554.6,
+  "evaluation": {
+    "s1_p_recon": 0.9285,
+    "s2_name": 0.7677,
+    "s2_gender": 0.9473,
+    "s2_interact": 0.0377,
+    "s2_auto": 0.0377,
+    "probes": 0.0427
+  }
+}

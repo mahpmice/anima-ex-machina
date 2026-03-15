@@ -1,0 +1,1873 @@
+{
+  "attention_alignment": {
+    "layer_0": {
+      "head_0": {
+        "T": {
+          "target_p": 0.0167,
+          "avg_p_region": 0.0209,
+          "avg_all": 0.0238,
+          "specificity": 0.795
+        },
+        "H": {
+          "target_p": 0.0235,
+          "avg_p_region": 0.0235,
+          "avg_all": 0.0238,
+          "specificity": 0.999
+        },
+        "M": {
+          "target_p": 0.0732,
+          "avg_p_region": 0.0237,
+          "avg_all": 0.0238,
+          "specificity": 3.09
+        },
+        "V": {
+          "target_p": 0.017,
+          "avg_p_region": 0.0244,
+          "avg_all": 0.0238,
+          "specificity": 0.697
+        },
+        "Z": {
+          "target_p": 0.0398,
+          "avg_p_region": 0.0221,
+          "avg_all": 0.0238,
+          "specificity": 1.801
+        },
+        "A": {
+          "target_p": 0.0238,
+          "avg_p_region": 0.0279,
+          "avg_all": 0.0238,
+          "specificity": 0.854
+        },
+        "W": {
+          "target_p": 0.0257,
+          "avg_p_region": 0.0217,
+          "avg_all": 0.0238,
+          "specificity": 1.18
+        },
+        "R": {
+          "target_p": 0.0163,
+          "avg_p_region": 0.0234,
+          "avg_all": 0.0238,
+          "specificity": 0.699
+        },
+        "O": {
+          "target_p": 0.0796,
+          "avg_p_region": 0.0205,
+          "avg_all": 0.0238,
+          "specificity": 3.881
+        },
+        "S": {
+          "target_p": 0.0515,
+          "avg_p_region": 0.0247,
+          "avg_all": 0.0238,
+          "specificity": 2.09
+        },
+        "F": {
+          "target_p": 0.0272,
+          "avg_p_region": 0.0309,
+          "avg_all": 0.0238,
+          "specificity": 0.88
+        },
+        "L": {
+          "target_p": 0.0215,
+          "avg_p_region": 0.0243,
+          "avg_all": 0.0238,
+          "specificity": 0.884
+        },
+        "An": {
+          "target_p": 0.0217,
+          "avg_p_region": 0.0232,
+          "avg_all": 0.0238,
+          "specificity": 0.936
+        }
+      },
+      "head_1": {
+        "T": {
+          "target_p": 0.0345,
+          "avg_p_region": 0.0279,
+          "avg_all": 0.0238,
+          "specificity": 1.235
+        },
+        "H": {
+          "target_p": 0.0481,
+          "avg_p_region": 0.0293,
+          "avg_all": 0.0238,
+          "specificity": 1.643
+        },
+        "M": {
+          "target_p": 0.0317,
+          "avg_p_region": 0.025,
+          "avg_all": 0.0238,
+          "specificity": 1.272
+        },
+        "V": {
+          "target_p": 0.0402,
+          "avg_p_region": 0.0239,
+          "avg_all": 0.0238,
+          "specificity": 1.682
+        },
+        "Z": {
+          "target_p": 0.0323,
+          "avg_p_region": 0.0195,
+          "avg_all": 0.0238,
+          "specificity": 1.657
+        },
+        "A": {
+          "target_p": 0.0476,
+          "avg_p_region": 0.0273,
+          "avg_all": 0.0238,
+          "specificity": 1.746
+        },
+        "W": {
+          "target_p": 0.0438,
+          "avg_p_region": 0.0213,
+          "avg_all": 0.0238,
+          "specificity": 2.054
+        },
+        "R": {
+          "target_p": 0.1081,
+          "avg_p_region": 0.0305,
+          "avg_all": 0.0238,
+          "specificity": 3.548
+        },
+        "O": {
+          "target_p": 0.0266,
+          "avg_p_region": 0.0211,
+          "avg_all": 0.0238,
+          "specificity": 1.262
+        },
+        "S": {
+          "target_p": 0.0418,
+          "avg_p_region": 0.0247,
+          "avg_all": 0.0238,
+          "specificity": 1.696
+        },
+        "F": {
+          "target_p": 0.0329,
+          "avg_p_region": 0.0264,
+          "avg_all": 0.0238,
+          "specificity": 1.247
+        },
+        "L": {
+          "target_p": 0.1194,
+          "avg_p_region": 0.0363,
+          "avg_all": 0.0238,
+          "specificity": 3.285
+        },
+        "An": {
+          "target_p": 0.0692,
+          "avg_p_region": 0.0265,
+          "avg_all": 0.0238,
+          "specificity": 2.608
+        }
+      },
+      "head_2": {
+        "T": {
+          "target_p": 0.1116,
+          "avg_p_region": 0.0306,
+          "avg_all": 0.0238,
+          "specificity": 3.647
+        },
+        "H": {
+          "target_p": 0.0382,
+          "avg_p_region": 0.0257,
+          "avg_all": 0.0238,
+          "specificity": 1.487
+        },
+        "M": {
+          "target_p": 0.0652,
+          "avg_p_region": 0.0246,
+          "avg_all": 0.0238,
+          "specificity": 2.645
+        },
+        "V": {
+          "target_p": 0.0216,
+          "avg_p_region": 0.0275,
+          "avg_all": 0.0238,
+          "specificity": 0.787
+        },
+        "Z": {
+          "target_p": 0.1058,
+          "avg_p_region": 0.0278,
+          "avg_all": 0.0238,
+          "specificity": 3.81
+        },
+        "A": {
+          "target_p": 0.0121,
+          "avg_p_region": 0.0258,
+          "avg_all": 0.0238,
+          "specificity": 0.469
+        },
+        "W": {
+          "target_p": 0.042,
+          "avg_p_region": 0.0259,
+          "avg_all": 0.0238,
+          "specificity": 1.619
+        },
+        "R": {
+          "target_p": 0.0527,
+          "avg_p_region": 0.029,
+          "avg_all": 0.0238,
+          "specificity": 1.817
+        },
+        "O": {
+          "target_p": 0.0765,
+          "avg_p_region": 0.0227,
+          "avg_all": 0.0238,
+          "specificity": 3.37
+        },
+        "S": {
+          "target_p": 0.0973,
+          "avg_p_region": 0.0321,
+          "avg_all": 0.0238,
+          "specificity": 3.032
+        },
+        "F": {
+          "target_p": 0.0212,
+          "avg_p_region": 0.0223,
+          "avg_all": 0.0238,
+          "specificity": 0.952
+        },
+        "L": {
+          "target_p": 0.0111,
+          "avg_p_region": 0.0224,
+          "avg_all": 0.0238,
+          "specificity": 0.496
+        },
+        "An": {
+          "target_p": 0.0105,
+          "avg_p_region": 0.0206,
+          "avg_all": 0.0238,
+          "specificity": 0.513
+        }
+      },
+      "head_3": {
+        "T": {
+          "target_p": 0.0227,
+          "avg_p_region": 0.0242,
+          "avg_all": 0.0238,
+          "specificity": 0.937
+        },
+        "H": {
+          "target_p": 0.0215,
+          "avg_p_region": 0.0246,
+          "avg_all": 0.0238,
+          "specificity": 0.875
+        },
+        "M": {
+          "target_p": 0.0555,
+          "avg_p_region": 0.0297,
+          "avg_all": 0.0238,
+          "specificity": 1.869
+        },
+        "V": {
+          "target_p": 0.3389,
+          "avg_p_region": 0.0394,
+          "avg_all": 0.0238,
+          "specificity": 8.608
+        },
+        "Z": {
+          "target_p": 0.0277,
+          "avg_p_region": 0.0242,
+          "avg_all": 0.0238,
+          "specificity": 1.143
+        },
+        "A": {
+          "target_p": 0.0243,
+          "avg_p_region": 0.0231,
+          "avg_all": 0.0238,
+          "specificity": 1.054
+        },
+        "W": {
+          "target_p": 0.0621,
+          "avg_p_region": 0.0311,
+          "avg_all": 0.0238,
+          "specificity": 2.0
+        },
+        "R": {
+          "target_p": 0.1022,
+          "avg_p_region": 0.0266,
+          "avg_all": 0.0238,
+          "specificity": 3.845
+        },
+        "O": {
+          "target_p": 0.033,
+          "avg_p_region": 0.018,
+          "avg_all": 0.0238,
+          "specificity": 1.833
+        },
+        "S": {
+          "target_p": 0.039,
+          "avg_p_region": 0.0298,
+          "avg_all": 0.0238,
+          "specificity": 1.309
+        },
+        "F": {
+          "target_p": 0.0168,
+          "avg_p_region": 0.0213,
+          "avg_all": 0.0238,
+          "specificity": 0.786
+        },
+        "L": {
+          "target_p": 0.0109,
+          "avg_p_region": 0.0247,
+          "avg_all": 0.0238,
+          "specificity": 0.44
+        },
+        "An": {
+          "target_p": 0.0229,
+          "avg_p_region": 0.0195,
+          "avg_all": 0.0238,
+          "specificity": 1.173
+        }
+      }
+    },
+    "layer_1": {
+      "head_0": {
+        "T": {
+          "target_p": 0.0325,
+          "avg_p_region": 0.0286,
+          "avg_all": 0.0238,
+          "specificity": 1.138
+        },
+        "H": {
+          "target_p": 0.0423,
+          "avg_p_region": 0.0596,
+          "avg_all": 0.0238,
+          "specificity": 0.709
+        },
+        "M": {
+          "target_p": 0.1613,
+          "avg_p_region": 0.0566,
+          "avg_all": 0.0238,
+          "specificity": 2.85
+        },
+        "V": {
+          "target_p": 0.0669,
+          "avg_p_region": 0.0534,
+          "avg_all": 0.0238,
+          "specificity": 1.253
+        },
+        "Z": {
+          "target_p": 0.2014,
+          "avg_p_region": 0.04,
+          "avg_all": 0.0238,
+          "specificity": 5.035
+        },
+        "A": {
+          "target_p": 0.0814,
+          "avg_p_region": 0.0298,
+          "avg_all": 0.0238,
+          "specificity": 2.737
+        },
+        "W": {
+          "target_p": 0.0216,
+          "avg_p_region": 0.0408,
+          "avg_all": 0.0238,
+          "specificity": 0.529
+        },
+        "R": {
+          "target_p": 0.0459,
+          "avg_p_region": 0.0519,
+          "avg_all": 0.0238,
+          "specificity": 0.885
+        },
+        "O": {
+          "target_p": 0.2691,
+          "avg_p_region": 0.0441,
+          "avg_all": 0.0238,
+          "specificity": 6.105
+        },
+        "S": {
+          "target_p": 0.0244,
+          "avg_p_region": 0.0301,
+          "avg_all": 0.0238,
+          "specificity": 0.81
+        },
+        "F": {
+          "target_p": 0.021,
+          "avg_p_region": 0.026,
+          "avg_all": 0.0238,
+          "specificity": 0.806
+        },
+        "L": {
+          "target_p": 0.0161,
+          "avg_p_region": 0.0275,
+          "avg_all": 0.0238,
+          "specificity": 0.587
+        },
+        "An": {
+          "target_p": 0.1123,
+          "avg_p_region": 0.0211,
+          "avg_all": 0.0238,
+          "specificity": 5.311
+        }
+      },
+      "head_1": {
+        "T": {
+          "target_p": 0.0308,
+          "avg_p_region": 0.0321,
+          "avg_all": 0.0238,
+          "specificity": 0.96
+        },
+        "H": {
+          "target_p": 0.0396,
+          "avg_p_region": 0.0304,
+          "avg_all": 0.0238,
+          "specificity": 1.304
+        },
+        "M": {
+          "target_p": 0.0268,
+          "avg_p_region": 0.0306,
+          "avg_all": 0.0238,
+          "specificity": 0.878
+        },
+        "V": {
+          "target_p": 0.0755,
+          "avg_p_region": 0.0536,
+          "avg_all": 0.0238,
+          "specificity": 1.409
+        },
+        "Z": {
+          "target_p": 0.0555,
+          "avg_p_region": 0.0682,
+          "avg_all": 0.0238,
+          "specificity": 0.815
+        },
+        "A": {
+          "target_p": 0.1556,
+          "avg_p_region": 0.0413,
+          "avg_all": 0.0238,
+          "specificity": 3.769
+        },
+        "W": {
+          "target_p": 0.0167,
+          "avg_p_region": 0.043,
+          "avg_all": 0.0238,
+          "specificity": 0.389
+        },
+        "R": {
+          "target_p": 0.0273,
+          "avg_p_region": 0.0357,
+          "avg_all": 0.0238,
+          "specificity": 0.766
+        },
+        "O": {
+          "target_p": 0.0679,
+          "avg_p_region": 0.0505,
+          "avg_all": 0.0238,
+          "specificity": 1.345
+        },
+        "S": {
+          "target_p": 0.043,
+          "avg_p_region": 0.0309,
+          "avg_all": 0.0238,
+          "specificity": 1.39
+        },
+        "F": {
+          "target_p": 0.0418,
+          "avg_p_region": 0.0321,
+          "avg_all": 0.0238,
+          "specificity": 1.301
+        },
+        "L": {
+          "target_p": 0.0313,
+          "avg_p_region": 0.0348,
+          "avg_all": 0.0238,
+          "specificity": 0.899
+        },
+        "An": {
+          "target_p": 0.0796,
+          "avg_p_region": 0.0418,
+          "avg_all": 0.0238,
+          "specificity": 1.904
+        }
+      },
+      "head_2": {
+        "T": {
+          "target_p": 0.0072,
+          "avg_p_region": 0.0299,
+          "avg_all": 0.0238,
+          "specificity": 0.243
+        },
+        "H": {
+          "target_p": 0.5207,
+          "avg_p_region": 0.0574,
+          "avg_all": 0.0238,
+          "specificity": 9.074
+        },
+        "M": {
+          "target_p": 0.0313,
+          "avg_p_region": 0.0295,
+          "avg_all": 0.0238,
+          "specificity": 1.061
+        },
+        "V": {
+          "target_p": 0.0574,
+          "avg_p_region": 0.0444,
+          "avg_all": 0.0238,
+          "specificity": 1.295
+        },
+        "Z": {
+          "target_p": 0.1895,
+          "avg_p_region": 0.0507,
+          "avg_all": 0.0238,
+          "specificity": 3.739
+        },
+        "A": {
+          "target_p": 0.2006,
+          "avg_p_region": 0.0502,
+          "avg_all": 0.0238,
+          "specificity": 3.995
+        },
+        "W": {
+          "target_p": 0.0256,
+          "avg_p_region": 0.0453,
+          "avg_all": 0.0238,
+          "specificity": 0.567
+        },
+        "R": {
+          "target_p": 0.0789,
+          "avg_p_region": 0.0407,
+          "avg_all": 0.0238,
+          "specificity": 1.937
+        },
+        "O": {
+          "target_p": 0.0398,
+          "avg_p_region": 0.0296,
+          "avg_all": 0.0238,
+          "specificity": 1.348
+        },
+        "S": {
+          "target_p": 0.2167,
+          "avg_p_region": 0.0454,
+          "avg_all": 0.0238,
+          "specificity": 4.775
+        },
+        "F": {
+          "target_p": 0.0138,
+          "avg_p_region": 0.0302,
+          "avg_all": 0.0238,
+          "specificity": 0.457
+        },
+        "L": {
+          "target_p": 0.0679,
+          "avg_p_region": 0.0323,
+          "avg_all": 0.0238,
+          "specificity": 2.102
+        },
+        "An": {
+          "target_p": 0.1559,
+          "avg_p_region": 0.0303,
+          "avg_all": 0.0238,
+          "specificity": 5.138
+        }
+      },
+      "head_3": {
+        "T": {
+          "target_p": 0.0054,
+          "avg_p_region": 0.0255,
+          "avg_all": 0.0238,
+          "specificity": 0.212
+        },
+        "H": {
+          "target_p": 0.0181,
+          "avg_p_region": 0.0231,
+          "avg_all": 0.0238,
+          "specificity": 0.785
+        },
+        "M": {
+          "target_p": 0.0148,
+          "avg_p_region": 0.0172,
+          "avg_all": 0.0238,
+          "specificity": 0.857
+        },
+        "V": {
+          "target_p": 0.0099,
+          "avg_p_region": 0.0219,
+          "avg_all": 0.0238,
+          "specificity": 0.449
+        },
+        "Z": {
+          "target_p": 0.0273,
+          "avg_p_region": 0.0239,
+          "avg_all": 0.0238,
+          "specificity": 1.142
+        },
+        "A": {
+          "target_p": 0.0494,
+          "avg_p_region": 0.0335,
+          "avg_all": 0.0238,
+          "specificity": 1.478
+        },
+        "W": {
+          "target_p": 0.0325,
+          "avg_p_region": 0.0235,
+          "avg_all": 0.0238,
+          "specificity": 1.381
+        },
+        "R": {
+          "target_p": 0.039,
+          "avg_p_region": 0.0243,
+          "avg_all": 0.0238,
+          "specificity": 1.606
+        },
+        "O": {
+          "target_p": 0.0311,
+          "avg_p_region": 0.022,
+          "avg_all": 0.0238,
+          "specificity": 1.413
+        },
+        "S": {
+          "target_p": 0.1349,
+          "avg_p_region": 0.0233,
+          "avg_all": 0.0238,
+          "specificity": 5.789
+        },
+        "F": {
+          "target_p": 0.0233,
+          "avg_p_region": 0.0235,
+          "avg_all": 0.0238,
+          "specificity": 0.993
+        },
+        "L": {
+          "target_p": 0.1744,
+          "avg_p_region": 0.0207,
+          "avg_all": 0.0238,
+          "specificity": 8.431
+        },
+        "An": {
+          "target_p": 0.0157,
+          "avg_p_region": 0.0177,
+          "avg_all": 0.0238,
+          "specificity": 0.885
+        }
+      }
+    },
+    "layer_2": {
+      "head_0": {
+        "T": {
+          "target_p": 0.0153,
+          "avg_p_region": 0.02,
+          "avg_all": 0.0238,
+          "specificity": 0.763
+        },
+        "H": {
+          "target_p": 0.0197,
+          "avg_p_region": 0.0195,
+          "avg_all": 0.0238,
+          "specificity": 1.011
+        },
+        "M": {
+          "target_p": 0.0209,
+          "avg_p_region": 0.013,
+          "avg_all": 0.0238,
+          "specificity": 1.613
+        },
+        "V": {
+          "target_p": 0.0458,
+          "avg_p_region": 0.02,
+          "avg_all": 0.0238,
+          "specificity": 2.287
+        },
+        "Z": {
+          "target_p": 0.0323,
+          "avg_p_region": 0.0186,
+          "avg_all": 0.0238,
+          "specificity": 1.739
+        },
+        "A": {
+          "target_p": 0.0148,
+          "avg_p_region": 0.029,
+          "avg_all": 0.0238,
+          "specificity": 0.509
+        },
+        "W": {
+          "target_p": 0.0107,
+          "avg_p_region": 0.019,
+          "avg_all": 0.0238,
+          "specificity": 0.564
+        },
+        "R": {
+          "target_p": 0.0223,
+          "avg_p_region": 0.0261,
+          "avg_all": 0.0238,
+          "specificity": 0.855
+        },
+        "O": {
+          "target_p": 0.0211,
+          "avg_p_region": 0.0215,
+          "avg_all": 0.0238,
+          "specificity": 0.98
+        },
+        "S": {
+          "target_p": 0.0159,
+          "avg_p_region": 0.0214,
+          "avg_all": 0.0238,
+          "specificity": 0.743
+        },
+        "F": {
+          "target_p": 0.007,
+          "avg_p_region": 0.0251,
+          "avg_all": 0.0238,
+          "specificity": 0.28
+        },
+        "L": {
+          "target_p": 0.0082,
+          "avg_p_region": 0.0185,
+          "avg_all": 0.0238,
+          "specificity": 0.443
+        },
+        "An": {
+          "target_p": 0.0088,
+          "avg_p_region": 0.0232,
+          "avg_all": 0.0238,
+          "specificity": 0.381
+        }
+      },
+      "head_1": {
+        "T": {
+          "target_p": 0.1037,
+          "avg_p_region": 0.0229,
+          "avg_all": 0.0238,
+          "specificity": 4.535
+        },
+        "H": {
+          "target_p": 0.0245,
+          "avg_p_region": 0.0182,
+          "avg_all": 0.0238,
+          "specificity": 1.34
+        },
+        "M": {
+          "target_p": 0.002,
+          "avg_p_region": 0.0109,
+          "avg_all": 0.0238,
+          "specificity": 0.18
+        },
+        "V": {
+          "target_p": 0.0063,
+          "avg_p_region": 0.0129,
+          "avg_all": 0.0238,
+          "specificity": 0.492
+        },
+        "Z": {
+          "target_p": 0.0243,
+          "avg_p_region": 0.0208,
+          "avg_all": 0.0238,
+          "specificity": 1.171
+        },
+        "A": {
+          "target_p": 0.0057,
+          "avg_p_region": 0.0199,
+          "avg_all": 0.0238,
+          "specificity": 0.286
+        },
+        "W": {
+          "target_p": 0.042,
+          "avg_p_region": 0.0206,
+          "avg_all": 0.0238,
+          "specificity": 2.037
+        },
+        "R": {
+          "target_p": 0.0031,
+          "avg_p_region": 0.0159,
+          "avg_all": 0.0238,
+          "specificity": 0.197
+        },
+        "O": {
+          "target_p": 0.0142,
+          "avg_p_region": 0.013,
+          "avg_all": 0.0238,
+          "specificity": 1.092
+        },
+        "S": {
+          "target_p": 0.0022,
+          "avg_p_region": 0.0136,
+          "avg_all": 0.0238,
+          "specificity": 0.159
+        },
+        "F": {
+          "target_p": 0.0076,
+          "avg_p_region": 0.012,
+          "avg_all": 0.0238,
+          "specificity": 0.635
+        },
+        "L": {
+          "target_p": 0.0024,
+          "avg_p_region": 0.0099,
+          "avg_all": 0.0238,
+          "specificity": 0.245
+        },
+        "An": {
+          "target_p": 0.0081,
+          "avg_p_region": 0.0117,
+          "avg_all": 0.0238,
+          "specificity": 0.696
+        }
+      },
+      "head_2": {
+        "T": {
+          "target_p": 0.0216,
+          "avg_p_region": 0.0218,
+          "avg_all": 0.0238,
+          "specificity": 0.994
+        },
+        "H": {
+          "target_p": 0.0229,
+          "avg_p_region": 0.0162,
+          "avg_all": 0.0238,
+          "specificity": 1.418
+        },
+        "M": {
+          "target_p": 0.0243,
+          "avg_p_region": 0.0198,
+          "avg_all": 0.0238,
+          "specificity": 1.228
+        },
+        "V": {
+          "target_p": 0.072,
+          "avg_p_region": 0.029,
+          "avg_all": 0.0238,
+          "specificity": 2.488
+        },
+        "Z": {
+          "target_p": 0.0191,
+          "avg_p_region": 0.0232,
+          "avg_all": 0.0238,
+          "specificity": 0.824
+        },
+        "A": {
+          "target_p": 0.0216,
+          "avg_p_region": 0.0193,
+          "avg_all": 0.0238,
+          "specificity": 1.116
+        },
+        "W": {
+          "target_p": 0.0204,
+          "avg_p_region": 0.021,
+          "avg_all": 0.0238,
+          "specificity": 0.97
+        },
+        "R": {
+          "target_p": 0.0343,
+          "avg_p_region": 0.0204,
+          "avg_all": 0.0238,
+          "specificity": 1.682
+        },
+        "O": {
+          "target_p": 0.0333,
+          "avg_p_region": 0.0183,
+          "avg_all": 0.0238,
+          "specificity": 1.821
+        },
+        "S": {
+          "target_p": 0.0061,
+          "avg_p_region": 0.0203,
+          "avg_all": 0.0238,
+          "specificity": 0.301
+        },
+        "F": {
+          "target_p": 0.0098,
+          "avg_p_region": 0.0147,
+          "avg_all": 0.0238,
+          "specificity": 0.67
+        },
+        "L": {
+          "target_p": 0.0164,
+          "avg_p_region": 0.0215,
+          "avg_all": 0.0238,
+          "specificity": 0.764
+        },
+        "An": {
+          "target_p": 0.0188,
+          "avg_p_region": 0.0248,
+          "avg_all": 0.0238,
+          "specificity": 0.757
+        }
+      },
+      "head_3": {
+        "T": {
+          "target_p": 0.0355,
+          "avg_p_region": 0.0243,
+          "avg_all": 0.0238,
+          "specificity": 1.461
+        },
+        "H": {
+          "target_p": 0.0196,
+          "avg_p_region": 0.0291,
+          "avg_all": 0.0238,
+          "specificity": 0.675
+        },
+        "M": {
+          "target_p": 0.0822,
+          "avg_p_region": 0.0263,
+          "avg_all": 0.0238,
+          "specificity": 3.127
+        },
+        "V": {
+          "target_p": 0.009,
+          "avg_p_region": 0.0261,
+          "avg_all": 0.0238,
+          "specificity": 0.346
+        },
+        "Z": {
+          "target_p": 0.056,
+          "avg_p_region": 0.0315,
+          "avg_all": 0.0238,
+          "specificity": 1.778
+        },
+        "A": {
+          "target_p": 0.0218,
+          "avg_p_region": 0.0243,
+          "avg_all": 0.0238,
+          "specificity": 0.898
+        },
+        "W": {
+          "target_p": 0.0087,
+          "avg_p_region": 0.0267,
+          "avg_all": 0.0238,
+          "specificity": 0.324
+        },
+        "R": {
+          "target_p": 0.0791,
+          "avg_p_region": 0.0278,
+          "avg_all": 0.0238,
+          "specificity": 2.841
+        },
+        "O": {
+          "target_p": 0.1086,
+          "avg_p_region": 0.0247,
+          "avg_all": 0.0238,
+          "specificity": 4.401
+        },
+        "S": {
+          "target_p": 0.0261,
+          "avg_p_region": 0.0208,
+          "avg_all": 0.0238,
+          "specificity": 1.253
+        },
+        "F": {
+          "target_p": 0.1293,
+          "avg_p_region": 0.0362,
+          "avg_all": 0.0238,
+          "specificity": 3.566
+        },
+        "L": {
+          "target_p": 0.0346,
+          "avg_p_region": 0.0278,
+          "avg_all": 0.0238,
+          "specificity": 1.246
+        },
+        "An": {
+          "target_p": 0.046,
+          "avg_p_region": 0.0173,
+          "avg_all": 0.0238,
+          "specificity": 2.663
+        }
+      }
+    },
+    "layer_3": {
+      "head_0": {
+        "T": {
+          "target_p": 0.004,
+          "avg_p_region": 0.0232,
+          "avg_all": 0.0238,
+          "specificity": 0.173
+        },
+        "H": {
+          "target_p": 0.0315,
+          "avg_p_region": 0.0307,
+          "avg_all": 0.0238,
+          "specificity": 1.026
+        },
+        "M": {
+          "target_p": 0.0263,
+          "avg_p_region": 0.0401,
+          "avg_all": 0.0238,
+          "specificity": 0.655
+        },
+        "V": {
+          "target_p": 0.1511,
+          "avg_p_region": 0.0432,
+          "avg_all": 0.0238,
+          "specificity": 3.496
+        },
+        "Z": {
+          "target_p": 0.0298,
+          "avg_p_region": 0.0219,
+          "avg_all": 0.0238,
+          "specificity": 1.358
+        },
+        "A": {
+          "target_p": 0.0067,
+          "avg_p_region": 0.021,
+          "avg_all": 0.0238,
+          "specificity": 0.318
+        },
+        "W": {
+          "target_p": 0.0288,
+          "avg_p_region": 0.022,
+          "avg_all": 0.0238,
+          "specificity": 1.309
+        },
+        "R": {
+          "target_p": 0.0215,
+          "avg_p_region": 0.0348,
+          "avg_all": 0.0238,
+          "specificity": 0.618
+        },
+        "O": {
+          "target_p": 0.0367,
+          "avg_p_region": 0.0261,
+          "avg_all": 0.0238,
+          "specificity": 1.408
+        },
+        "S": {
+          "target_p": 0.0105,
+          "avg_p_region": 0.0167,
+          "avg_all": 0.0238,
+          "specificity": 0.632
+        },
+        "F": {
+          "target_p": 0.0121,
+          "avg_p_region": 0.0199,
+          "avg_all": 0.0238,
+          "specificity": 0.609
+        },
+        "L": {
+          "target_p": 0.012,
+          "avg_p_region": 0.0163,
+          "avg_all": 0.0238,
+          "specificity": 0.74
+        },
+        "An": {
+          "target_p": 0.0283,
+          "avg_p_region": 0.0196,
+          "avg_all": 0.0238,
+          "specificity": 1.443
+        }
+      },
+      "head_1": {
+        "T": {
+          "target_p": 0.096,
+          "avg_p_region": 0.0336,
+          "avg_all": 0.0238,
+          "specificity": 2.861
+        },
+        "H": {
+          "target_p": 0.0145,
+          "avg_p_region": 0.0187,
+          "avg_all": 0.0238,
+          "specificity": 0.774
+        },
+        "M": {
+          "target_p": 0.0146,
+          "avg_p_region": 0.0293,
+          "avg_all": 0.0238,
+          "specificity": 0.498
+        },
+        "V": {
+          "target_p": 0.0473,
+          "avg_p_region": 0.0364,
+          "avg_all": 0.0238,
+          "specificity": 1.3
+        },
+        "Z": {
+          "target_p": 0.0189,
+          "avg_p_region": 0.0226,
+          "avg_all": 0.0238,
+          "specificity": 0.835
+        },
+        "A": {
+          "target_p": 0.0236,
+          "avg_p_region": 0.0414,
+          "avg_all": 0.0238,
+          "specificity": 0.569
+        },
+        "W": {
+          "target_p": 0.0086,
+          "avg_p_region": 0.0057,
+          "avg_all": 0.0238,
+          "specificity": 1.506
+        },
+        "R": {
+          "target_p": 0.0154,
+          "avg_p_region": 0.0266,
+          "avg_all": 0.0238,
+          "specificity": 0.578
+        },
+        "O": {
+          "target_p": 0.0097,
+          "avg_p_region": 0.0137,
+          "avg_all": 0.0238,
+          "specificity": 0.713
+        },
+        "S": {
+          "target_p": 0.033,
+          "avg_p_region": 0.0217,
+          "avg_all": 0.0238,
+          "specificity": 1.521
+        },
+        "F": {
+          "target_p": 0.2293,
+          "avg_p_region": 0.0283,
+          "avg_all": 0.0238,
+          "specificity": 8.095
+        },
+        "L": {
+          "target_p": 0.0098,
+          "avg_p_region": 0.0142,
+          "avg_all": 0.0238,
+          "specificity": 0.689
+        },
+        "An": {
+          "target_p": 0.006,
+          "avg_p_region": 0.0063,
+          "avg_all": 0.0238,
+          "specificity": 0.949
+        }
+      },
+      "head_2": {
+        "T": {
+          "target_p": 0.0167,
+          "avg_p_region": 0.0225,
+          "avg_all": 0.0238,
+          "specificity": 0.743
+        },
+        "H": {
+          "target_p": 0.0115,
+          "avg_p_region": 0.0278,
+          "avg_all": 0.0238,
+          "specificity": 0.412
+        },
+        "M": {
+          "target_p": 0.0122,
+          "avg_p_region": 0.0204,
+          "avg_all": 0.0238,
+          "specificity": 0.597
+        },
+        "V": {
+          "target_p": 0.0379,
+          "avg_p_region": 0.0314,
+          "avg_all": 0.0238,
+          "specificity": 1.208
+        },
+        "Z": {
+          "target_p": 0.0303,
+          "avg_p_region": 0.0259,
+          "avg_all": 0.0238,
+          "specificity": 1.168
+        },
+        "A": {
+          "target_p": 0.0512,
+          "avg_p_region": 0.0246,
+          "avg_all": 0.0238,
+          "specificity": 2.084
+        },
+        "W": {
+          "target_p": 0.0146,
+          "avg_p_region": 0.0223,
+          "avg_all": 0.0238,
+          "specificity": 0.654
+        },
+        "R": {
+          "target_p": 0.0134,
+          "avg_p_region": 0.0132,
+          "avg_all": 0.0238,
+          "specificity": 1.014
+        },
+        "O": {
+          "target_p": 0.0095,
+          "avg_p_region": 0.0118,
+          "avg_all": 0.0238,
+          "specificity": 0.804
+        },
+        "S": {
+          "target_p": 0.0159,
+          "avg_p_region": 0.0193,
+          "avg_all": 0.0238,
+          "specificity": 0.822
+        },
+        "F": {
+          "target_p": 0.0173,
+          "avg_p_region": 0.0217,
+          "avg_all": 0.0238,
+          "specificity": 0.797
+        },
+        "L": {
+          "target_p": 0.0261,
+          "avg_p_region": 0.0233,
+          "avg_all": 0.0238,
+          "specificity": 1.122
+        },
+        "An": {
+          "target_p": 0.0152,
+          "avg_p_region": 0.0202,
+          "avg_all": 0.0238,
+          "specificity": 0.751
+        }
+      },
+      "head_3": {
+        "T": {
+          "target_p": 0.0145,
+          "avg_p_region": 0.0171,
+          "avg_all": 0.0238,
+          "specificity": 0.844
+        },
+        "H": {
+          "target_p": 0.0192,
+          "avg_p_region": 0.0175,
+          "avg_all": 0.0238,
+          "specificity": 1.098
+        },
+        "M": {
+          "target_p": 0.0143,
+          "avg_p_region": 0.0124,
+          "avg_all": 0.0238,
+          "specificity": 1.147
+        },
+        "V": {
+          "target_p": 0.0129,
+          "avg_p_region": 0.017,
+          "avg_all": 0.0238,
+          "specificity": 0.755
+        },
+        "Z": {
+          "target_p": 0.0403,
+          "avg_p_region": 0.0143,
+          "avg_all": 0.0238,
+          "specificity": 2.812
+        },
+        "A": {
+          "target_p": 0.0255,
+          "avg_p_region": 0.0228,
+          "avg_all": 0.0238,
+          "specificity": 1.117
+        },
+        "W": {
+          "target_p": 0.0033,
+          "avg_p_region": 0.0132,
+          "avg_all": 0.0238,
+          "specificity": 0.25
+        },
+        "R": {
+          "target_p": 0.0055,
+          "avg_p_region": 0.0156,
+          "avg_all": 0.0238,
+          "specificity": 0.354
+        },
+        "O": {
+          "target_p": 0.0072,
+          "avg_p_region": 0.0158,
+          "avg_all": 0.0238,
+          "specificity": 0.458
+        },
+        "S": {
+          "target_p": 0.0144,
+          "avg_p_region": 0.0236,
+          "avg_all": 0.0238,
+          "specificity": 0.609
+        },
+        "F": {
+          "target_p": 0.0597,
+          "avg_p_region": 0.0247,
+          "avg_all": 0.0238,
+          "specificity": 2.413
+        },
+        "L": {
+          "target_p": 0.0982,
+          "avg_p_region": 0.0241,
+          "avg_all": 0.0238,
+          "specificity": 4.083
+        },
+        "An": {
+          "target_p": 0.0176,
+          "avg_p_region": 0.0253,
+          "avg_all": 0.0238,
+          "specificity": 0.694
+        }
+      }
+    }
+  },
+  "probe_name_position": {
+    "layer_0": {
+      "T": 0.643,
+      "H": 0.388,
+      "M": 0.378,
+      "V": 0.378,
+      "Z": 0.54,
+      "A": 0.612,
+      "W": 0.419,
+      "R": 0.449,
+      "O": 0.449,
+      "S": 0.685,
+      "F": 0.449,
+      "L": 0.704,
+      "An": 0.623
+    },
+    "layer_1": {
+      "T": 0.592,
+      "H": 0.366,
+      "M": 0.326,
+      "V": 0.38,
+      "Z": 0.5,
+      "A": 0.592,
+      "W": 0.429,
+      "R": 0.458,
+      "O": 0.469,
+      "S": 0.685,
+      "F": 0.48,
+      "L": 0.724,
+      "An": 0.593
+    },
+    "layer_2": {
+      "T": 0.561,
+      "H": 0.366,
+      "M": 0.348,
+      "V": 0.351,
+      "Z": 0.478,
+      "A": 0.581,
+      "W": 0.409,
+      "R": 0.418,
+      "O": 0.459,
+      "S": 0.675,
+      "F": 0.459,
+      "L": 0.694,
+      "An": 0.624
+    },
+    "layer_3": {
+      "T": 0.613,
+      "H": 0.408,
+      "M": 0.358,
+      "V": 0.34,
+      "Z": 0.498,
+      "A": 0.623,
+      "W": 0.409,
+      "R": 0.376,
+      "O": 0.49,
+      "S": 0.705,
+      "F": 0.46,
+      "L": 0.715,
+      "An": 0.726
+    },
+    "layer_4": {
+      "T": 0.612,
+      "H": 0.398,
+      "M": 0.408,
+      "V": 0.398,
+      "Z": 0.508,
+      "A": 0.684,
+      "W": 0.409,
+      "R": 0.387,
+      "O": 0.489,
+      "S": 0.634,
+      "F": 0.513,
+      "L": 0.715,
+      "An": 0.674
+    }
+  },
+  "probe_cross_dim": {
+    "T": {
+      "T": 1.0,
+      "H": 0.847,
+      "M": 0.674,
+      "V": 0.522,
+      "Z": 0.594,
+      "A": 0.745,
+      "W": 0.664,
+      "R": 0.869,
+      "O": 0.704,
+      "S": 0.888,
+      "F": 0.836,
+      "L": 0.909,
+      "An": 0.858
+    },
+    "H": {
+      "T": 0.755,
+      "H": 1.0,
+      "M": 0.674,
+      "V": 0.603,
+      "Z": 0.531,
+      "A": 0.704,
+      "W": 0.795,
+      "R": 0.611,
+      "O": 0.746,
+      "S": 0.766,
+      "F": 0.684,
+      "L": 0.94,
+      "An": 0.928
+    },
+    "M": {
+      "T": 0.705,
+      "H": 0.856,
+      "M": 1.0,
+      "V": 0.675,
+      "Z": 0.441,
+      "A": 0.765,
+      "W": 0.642,
+      "R": 0.564,
+      "O": 0.796,
+      "S": 0.695,
+      "F": 0.641,
+      "L": 0.908,
+      "An": 0.887
+    },
+    "V": {
+      "T": 0.664,
+      "H": 0.489,
+      "M": 0.898,
+      "V": 1.0,
+      "Z": 0.705,
+      "A": 0.786,
+      "W": 0.499,
+      "R": 0.562,
+      "O": 0.757,
+      "S": 0.715,
+      "F": 0.681,
+      "L": 0.887,
+      "An": 0.847
+    },
+    "Z": {
+      "T": 0.756,
+      "H": 0.498,
+      "M": 0.674,
+      "V": 0.919,
+      "Z": 1.0,
+      "A": 0.705,
+      "W": 0.744,
+      "R": 0.409,
+      "O": 0.725,
+      "S": 0.592,
+      "F": 0.57,
+      "L": 0.909,
+      "An": 0.858
+    },
+    "A": {
+      "T": 0.675,
+      "H": 0.59,
+      "M": 0.693,
+      "V": 0.827,
+      "Z": 0.817,
+      "A": 1.0,
+      "W": 0.706,
+      "R": 0.695,
+      "O": 0.705,
+      "S": 0.694,
+      "F": 0.664,
+      "L": 0.887,
+      "An": 0.878
+    },
+    "W": {
+      "T": 0.776,
+      "H": 0.579,
+      "M": 0.694,
+      "V": 0.734,
+      "Z": 0.551,
+      "A": 0.857,
+      "W": 1.0,
+      "R": 0.684,
+      "O": 0.644,
+      "S": 0.714,
+      "F": 0.602,
+      "L": 0.879,
+      "An": 0.908
+    },
+    "R": {
+      "T": 0.786,
+      "H": 0.735,
+      "M": 0.705,
+      "V": 0.632,
+      "Z": 0.543,
+      "A": 0.734,
+      "W": 0.826,
+      "R": 1.0,
+      "O": 0.736,
+      "S": 0.745,
+      "F": 0.683,
+      "L": 0.868,
+      "An": 0.786
+    },
+    "O": {
+      "T": 0.796,
+      "H": 0.581,
+      "M": 0.785,
+      "V": 0.714,
+      "Z": 0.787,
+      "A": 0.744,
+      "W": 0.643,
+      "R": 0.767,
+      "O": 1.0,
+      "S": 0.562,
+      "F": 0.641,
+      "L": 0.98,
+      "An": 0.898
+    },
+    "S": {
+      "T": 0.745,
+      "H": 0.591,
+      "M": 0.805,
+      "V": 0.653,
+      "Z": 0.562,
+      "A": 0.755,
+      "W": 0.775,
+      "R": 0.674,
+      "O": 0.736,
+      "S": 1.0,
+      "F": 0.672,
+      "L": 0.97,
+      "An": 0.887
+    },
+    "F": {
+      "T": 0.817,
+      "H": 0.541,
+      "M": 0.724,
+      "V": 0.552,
+      "Z": 0.501,
+      "A": 0.643,
+      "W": 0.613,
+      "R": 0.632,
+      "O": 0.694,
+      "S": 0.939,
+      "F": 1.0,
+      "L": 0.948,
+      "An": 0.937
+    },
+    "L": {
+      "T": 0.919,
+      "H": 0.632,
+      "M": 0.746,
+      "V": 0.735,
+      "Z": 0.523,
+      "A": 0.776,
+      "W": 0.614,
+      "R": 0.592,
+      "O": 0.786,
+      "S": 0.704,
+      "F": 0.948,
+      "L": 1.0,
+      "An": 0.989
+    },
+    "An": {
+      "T": 0.694,
+      "H": 0.551,
+      "M": 0.725,
+      "V": 0.613,
+      "Z": 0.635,
+      "A": 0.786,
+      "W": 0.695,
+      "R": 0.675,
+      "O": 0.735,
+      "S": 0.919,
+      "F": 0.743,
+      "L": 1.0,
+      "An": 1.0
+    }
+  },
+  "probe_masked_desc": {
+    "layer_0": {
+      "T": 0.49,
+      "H": 0.347,
+      "M": 0.449,
+      "V": 0.387,
+      "Z": 0.347,
+      "A": 0.674,
+      "W": 0.398,
+      "R": 0.347,
+      "O": 0.552,
+      "S": 0.613,
+      "F": 0.469,
+      "L": 0.694,
+      "An": 0.531
+    },
+    "layer_1": {
+      "T": 0.99,
+      "H": 0.376,
+      "M": 0.949,
+      "V": 0.99,
+      "Z": 0.939,
+      "A": 0.715,
+      "W": 0.857,
+      "R": 0.734,
+      "O": 0.806,
+      "S": 0.856,
+      "F": 0.56,
+      "L": 1.0,
+      "An": 0.826
+    },
+    "layer_2": {
+      "T": 0.99,
+      "H": 0.98,
+      "M": 0.888,
+      "V": 0.939,
+      "Z": 0.94,
+      "A": 0.888,
+      "W": 0.827,
+      "R": 0.776,
+      "O": 0.877,
+      "S": 0.856,
+      "F": 0.723,
+      "L": 1.0,
+      "An": 1.0
+    },
+    "layer_3": {
+      "T": 0.979,
+      "H": 0.94,
+      "M": 0.898,
+      "V": 0.939,
+      "Z": 0.919,
+      "A": 0.868,
+      "W": 0.837,
+      "R": 0.878,
+      "O": 0.897,
+      "S": 0.835,
+      "F": 0.795,
+      "L": 1.0,
+      "An": 1.0
+    },
+    "layer_4": {
+      "T": 0.959,
+      "H": 0.91,
+      "M": 0.877,
+      "V": 0.918,
+      "Z": 0.888,
+      "A": 0.857,
+      "W": 0.797,
+      "R": 0.816,
+      "O": 0.877,
+      "S": 0.846,
+      "F": 0.756,
+      "L": 1.0,
+      "An": 1.0
+    }
+  },
+  "causal_intervention": {
+    "patch_layer_0": {
+      "T": {
+        "success_rate": 0.56,
+        "n_total": 25,
+        "n_success": 14
+      },
+      "H": {
+        "success_rate": 0.88,
+        "n_total": 25,
+        "n_success": 22
+      },
+      "M": {
+        "success_rate": 0.88,
+        "n_total": 25,
+        "n_success": 22
+      },
+      "V": {
+        "success_rate": 0.8,
+        "n_total": 25,
+        "n_success": 20
+      },
+      "Z": {
+        "success_rate": 0.84,
+        "n_total": 25,
+        "n_success": 21
+      },
+      "A": {
+        "success_rate": 0.76,
+        "n_total": 25,
+        "n_success": 19
+      },
+      "W": {
+        "success_rate": 0.56,
+        "n_total": 25,
+        "n_success": 14
+      },
+      "R": {
+        "success_rate": 0.4,
+        "n_total": 25,
+        "n_success": 10
+      },
+      "O": {
+        "success_rate": 0.92,
+        "n_total": 25,
+        "n_success": 23
+      },
+      "S": {
+        "success_rate": 0.72,
+        "n_total": 25,
+        "n_success": 18
+      },
+      "F": {
+        "success_rate": 0.68,
+        "n_total": 25,
+        "n_success": 17
+      }
+    },
+    "patch_layer_1": {
+      "T": {
+        "success_rate": 0.28,
+        "n_total": 25,
+        "n_success": 7
+      },
+      "H": {
+        "success_rate": 0.28,
+        "n_total": 25,
+        "n_success": 7
+      },
+      "M": {
+        "success_rate": 0.76,
+        "n_total": 25,
+        "n_success": 19
+      },
+      "V": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "Z": {
+        "success_rate": 0.36,
+        "n_total": 25,
+        "n_success": 9
+      },
+      "A": {
+        "success_rate": 0.44,
+        "n_total": 25,
+        "n_success": 11
+      },
+      "W": {
+        "success_rate": 0.2,
+        "n_total": 25,
+        "n_success": 5
+      },
+      "R": {
+        "success_rate": 0.16,
+        "n_total": 25,
+        "n_success": 4
+      },
+      "O": {
+        "success_rate": 0.16,
+        "n_total": 25,
+        "n_success": 4
+      },
+      "S": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "F": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      }
+    },
+    "patch_layer_2": {
+      "T": {
+        "success_rate": 0.2,
+        "n_total": 25,
+        "n_success": 5
+      },
+      "H": {
+        "success_rate": 0.28,
+        "n_total": 25,
+        "n_success": 7
+      },
+      "M": {
+        "success_rate": 0.64,
+        "n_total": 25,
+        "n_success": 16
+      },
+      "V": {
+        "success_rate": 0.04,
+        "n_total": 25,
+        "n_success": 1
+      },
+      "Z": {
+        "success_rate": 0.24,
+        "n_total": 25,
+        "n_success": 6
+      },
+      "A": {
+        "success_rate": 0.24,
+        "n_total": 25,
+        "n_success": 6
+      },
+      "W": {
+        "success_rate": 0.16,
+        "n_total": 25,
+        "n_success": 4
+      },
+      "R": {
+        "success_rate": 0.04,
+        "n_total": 25,
+        "n_success": 1
+      },
+      "O": {
+        "success_rate": 0.2,
+        "n_total": 25,
+        "n_success": 5
+      },
+      "S": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "F": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      }
+    },
+    "patch_layer_3": {
+      "T": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "H": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "M": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "V": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "Z": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "A": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "W": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "R": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "O": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "S": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      },
+      "F": {
+        "success_rate": 0.0,
+        "n_total": 25,
+        "n_success": 0
+      }
+    }
+  }
+}

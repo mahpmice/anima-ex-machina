@@ -1,0 +1,43 @@
+{
+  "xs": {
+    "42": {
+      "size": "xs",
+      "seed": 42,
+      "params": 37603,
+      "d": 32,
+      "n_layers": 2,
+      "n_heads": 4,
+      "total_steps": 15368,
+      "elapsed_sec": 336.9,
+      "evaluation": {
+        "s1_p_recon": 0.8062,
+        "s2_name": 0.6715,
+        "s2_interact": 0.9792,
+        "s2_interact_per_dim": {
+          "T": 1.0,
+          "H": 1.0,
+          "M": 1.0,
+          "V": 1.0,
+          "Z": 1.0,
+          "A": 0.805,
+          "W": 0.995,
+          "R": 0.97,
+          "O": 0.965,
+          "S": 1.0,
+          "F": 0.995,
+          "L": 1.0,
+          "An": 1.0
+        },
+        "probes": 0.9231,
+        "novel_avg_dims": 5.2,
+        "novel_per_entity": {
+          "bird": 6,
+          "shell": 5,
+          "claw": 7,
+          "cave": 3,
+          "honey": 5
+        }
+      }
+    }
+  }
+}

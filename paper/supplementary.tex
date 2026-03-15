@@ -1,0 +1,476 @@
+\documentclass{article}
+
+% NeurIPS 2024 style - preprint mode
+\usepackage[preprint]{neurips_2024}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{longtable}
+
+\title{Supplementary Materials\\
+\Large Anima ex Machina: Grounding Symbols Through Developmental Perception in a 228K-Parameter Model}
+
+\author{
+  Anonymous Author(s)
+}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{section}{0}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+%==============================================================================
+\section{Phase Rehearsal Schedules}
+%==============================================================================
+
+Referenced in \S2.3: ``Full rehearsal schedules are reported in Supplementary Table S1.''
+
+Each phase includes rehearsal of prior-phase sequences at hand-tuned proportions. The table reports the mixing ratio for each sequence type within each phase's training batches. Multipliers indicate the number of times each sequence pool is repeated before shuffling into the training batch. All phases use early stopping with the criterion: loss $<$ 0.25, accuracy $\geq$ 0.95.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Phase rehearsal schedules.}
+\label{tab:rehearsal}
+\begin{tabular}{clcc}
+\toprule
+Phase & Sequence types in batch & Repetition multiplier & Max steps \\
+\midrule
+1 & S1 bare, S1 un-prefixed, S1 interaction-format & 10$\times$, 5$\times$, 5$\times$ & 5,000 \\
+2 & S1 bare, S1 un-prefixed, S2 name & 5$\times$, 3$\times$, 5$\times$ & 5,000 \\
+3 & S1 bare, S2 name, S2 gender & 3$\times$, 3$\times$, 3$\times$ & 5,000 \\
+4 & S1 bare, S2 name, S2 gender, S2 un-article, S2 il-article & 3$\times$, 2$\times$, 2$\times$, 5$\times$, 5$\times$ & 5,000 \\
+5 & S1 bare, S2 name, S2 gender, S2 un/il-article, S2 interact, S2 auto & 3$\times$, 1$\times$, 1$\times$, 3$\times$, 10$\times$, 10$\times$ & 10,000 \\
+6 & S1 bare, S2 name, S2 gender, S2 interact, S2 auto, S3 full-mask & 3$\times$, 1$\times$, 1$\times$, 3$\times$, 3$\times$, 15$\times$ & 20,000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The dominant sequence type in each phase is the newly introduced format: S2 name in Phase 2, S2 gender in Phase 3, S2 articles in Phase 4, S2 interact/auto in Phase 5, and S3 full-mask sequences in Phase 6. Prior-phase sequences are retained at progressively lower multipliers, ensuring that earlier capabilities are maintained at $>$95\% accuracy while the new cognitive operation dominates the training signal.
+
+%==============================================================================
+\section{Two-Layer Architectural Variant}
+%==============================================================================
+
+Referenced in \S3.1.5: ``A supplementary experiment with a 2-layer, 4-head variant at d=32...''
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Two-layer architectural variant comparison.}
+\label{tab:twolayer}
+\begin{tabular}{lccc}
+\toprule
+Metric & 2-layer (d=32, 37K) & 4-layer (d=32, 63K) & Ratio \\
+\midrule
+S2.4 Interaction & 0.979 & 0.980 & 1.00 \\
+Probe (held-out) & 0.923 & 0.889 & 1.04 \\
+Novel (/13) & 5.2 & 8.2 & 0.63 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Both models: 4 attention heads, bidir30, seed = 42. The 2-layer model matches the 4-layer model on interaction accuracy but achieves substantially fewer novel dimensions (5.2 vs.\ 8.2), indicating that additional layers contribute to the completeness of per-dimension rule extraction rather than to its presence or absence.
+
+%==============================================================================
+\section{Per-Seed Raw Values for Forward Pathway (Table 1)}
+%==============================================================================
+
+5 seeds (42, 123, 456, 789, 1024), bidir30 model.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Per-seed raw values for forward pathway.}
+\label{tab:forward_raw}
+\begin{tabular}{lccccccc}
+\toprule
+Seed & S1 & S2.1 & S2.2 & S2.4 & S2.5 & Probe & Novel (/13) \\
+\midrule
+42 & 0.926 & 0.812 & 0.740 & 0.975 & 0.990 & 0.846 & 7.4 \\
+123 & 0.927 & 0.864 & 0.830 & 0.953 & 0.964 & 0.795 & 8.8 \\
+456 & 0.924 & 0.806 & 0.807 & 0.964 & 0.990 & 0.821 & 7.4 \\
+789 & 0.927 & 0.741 & 0.823 & 0.955 & 0.987 & 0.803 & 4.8 \\
+1024 & 0.923 & 0.785 & 0.854 & 0.960 & 0.982 & 0.803 & 6.6 \\
+\midrule
+\textbf{Mean$\pm$Std} & \textbf{0.925$\pm$0.002} & \textbf{0.802$\pm$0.040} & \textbf{0.811$\pm$0.038} & \textbf{0.961$\pm$0.008} & \textbf{0.983$\pm$0.010} & \textbf{0.814$\pm$0.018} & \textbf{7.0$\pm$1.3} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%==============================================================================
+\section{Per-Seed Raw Values for Reverse Inference (Table 3)}
+%==============================================================================
+
+5 seeds, bidir30 model, reverse inference accuracy.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Per-seed raw values for reverse inference.}
+\label{tab:reverse_raw}
+\begin{tabular}{lcccccc}
+\toprule
+Seed & A (trained) & B (novel) & C (mismatch) & D (fictitious) & E (interaction) & F (held-out) \\
+\midrule
+42 & 0.432 & 0.415 & 0.415 & 0.308 & 0.969 & 0.940 \\
+123 & 0.761 & 0.739 & 0.769 & 0.692 & 0.910 & 0.846 \\
+456 & 0.718 & 0.692 & 0.723 & 0.531 & 0.656 & 0.658 \\
+789 & 0.684 & 0.631 & 0.677 & 0.462 & 0.855 & 0.769 \\
+1024 & 0.677 & 0.585 & 0.685 & 0.465 & 0.827 & 0.744 \\
+\midrule
+\textbf{Mean$\pm$Std} & \textbf{0.654$\pm$0.115} & \textbf{0.612$\pm$0.112} & \textbf{0.654$\pm$0.124} & \textbf{0.492$\pm$0.124} & \textbf{0.843$\pm$0.106} & \textbf{0.791$\pm$0.096} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%==============================================================================
+\section{C-Group Disambiguation Per-Pair Breakdown (Table 4 Detail)}
+%==============================================================================
+
+Referenced in Table 4. 10 entity pairs, 5 seeds. Each cell = number of dimensions (out of 13, minus coincidentally identical dimensions) where the model's reverse prediction matched the description encoding (desc), the name encoding (name), or neither.
+
+\subsection{Seed 42 Detail}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{C-group disambiguation per-pair breakdown (Seed 42).}
+\label{tab:cgroup_seed42}
+\begin{tabular}{lccc}
+\toprule
+Pair & desc & name & neither \\
+\midrule
+amber(name) + flint(enc) & 2 & 0 & 6 \\
+bear(name) + mountain(enc) & 5 & 0 & 7 \\
+horse(name) + louse(enc) & 6 & 3 & 3 \\
+hill(name) + amber(enc) & 1 & 1 & 10 \\
+snow(name) + vine(enc) & 5 & 4 & 4 \\
+moon(name) + smoke(enc) & 4 & 0 & 8 \\
+root(name) + seed(enc) & 3 & 1 & 6 \\
+grass(name) + cliff(enc) & 6 & 1 & 6 \\
+leaf(name) + horse(enc) & 2 & 2 & 6 \\
+moon(name) + mushroom(enc) & 3 & 3 & 5 \\
+\midrule
+\textbf{Total} & \textbf{37} & \textbf{15} & \textbf{61} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Aggregate Across Seeds}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{C-group disambiguation aggregate.}
+\label{tab:cgroup_aggregate}
+\begin{tabular}{lcccc}
+\toprule
+Seed & desc & name & neither & desc:name ratio \\
+\midrule
+42 & 37 & 15 & 61 & 2.5:1 \\
+123 & 64 & 9 & 21 & 7.1:1 \\
+456 & 58 & 10 & 26 & 5.8:1 \\
+789 & 55 & 14 & 28 & 3.9:1 \\
+1024 & 58 & 6 & 35 & 9.7:1 \\
+\midrule
+\textbf{Pooled} & \textbf{54.4$\pm$9.2} & \textbf{10.8$\pm$3.3} & \textbf{34.2$\pm$15.0} & \textbf{5.0:1} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Note: Totals per seed vary (94--113) because dimensions where both gold encodings share the same value are excluded from the desc/name classification.
+
+%==============================================================================
+\section{Gender Swap Full 13-Dimension Breakdown (Table 6 Detail)}
+%==============================================================================
+
+Referenced in Table 6. 5 seeds, S2.2 format. $\Delta$ = Swap $-$ Full.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Gender swap full 13-dimension breakdown.}
+\label{tab:genderswap_full}
+\begin{tabular}{lcccc}
+\toprule
+Dimension & Full (mean$\pm$std) & Swap (mean$\pm$std) & $\Delta$ (mean$\pm$std) & Affected? \\
+\midrule
+T (temperature) & 0.889$\pm$0.117 & 0.889$\pm$0.112 & $-$0.001$\pm$0.007 & No \\
+H (hardness) & 0.812$\pm$0.042 & 0.804$\pm$0.040 & $-$0.008$\pm$0.009 & No \\
+M (moisture) & 0.877$\pm$0.061 & 0.884$\pm$0.061 & +0.007$\pm$0.009 & No \\
+V (brightness) & 0.886$\pm$0.040 & 0.874$\pm$0.059 & $-$0.012$\pm$0.032 & No \\
+Z (size) & 0.823$\pm$0.043 & 0.809$\pm$0.067 & $-$0.014$\pm$0.052 & No \\
+A (auditory) & 0.649$\pm$0.246 & 0.648$\pm$0.250 & $-$0.001$\pm$0.048 & No \\
+W (weight) & 0.773$\pm$0.033 & 0.764$\pm$0.027 & $-$0.009$\pm$0.012 & No \\
+R (texture) & 0.630$\pm$0.160 & 0.614$\pm$0.171 & $-$0.015$\pm$0.033 & No \\
+O (opacity) & 0.776$\pm$0.130 & 0.778$\pm$0.138 & +0.003$\pm$0.024 & No \\
+S (speed) & 0.701$\pm$0.072 & 0.686$\pm$0.074 & $-$0.015$\pm$0.033 & No \\
+\textbf{F (olfactory)} & \textbf{0.875$\pm$0.069} & \textbf{0.814$\pm$0.068} & \textbf{$-$0.061$\pm$0.042} & \textbf{Yes} \\
+\textbf{L (vitality)} & \textbf{0.899$\pm$0.065} & \textbf{0.812$\pm$0.106} & \textbf{$-$0.087$\pm$0.066} & \textbf{Yes} \\
+\textbf{An (animacy)} & \textbf{0.951$\pm$0.036} & \textbf{0.802$\pm$0.187} & \textbf{$-$0.149$\pm$0.153} & \textbf{Yes} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The three affected dimensions---vitality, olfactory noxiousness, and animacy---are all related to biological status. The remaining ten dimensions show $|\Delta| < 0.015$ across all seeds.
+
+%==============================================================================
+\section{Phase Ablation Results}
+%==============================================================================
+
+Referenced in \S3.5.1.
+
+\subsection{Single-Seed Results (Seed = 42)}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Phase ablation single-seed results.}
+\label{tab:ablation_single}
+\begin{tabular}{llcccccc}
+\toprule
+Model & Training order & S1 & S2.1 & S2.2 & S2.4 & S2.5 & Probe \\
+\midrule
+Baseline & [1,2,3,4,5] & 0.926 & 0.812 & 0.740 & 0.975 & 0.990 & 0.846 \\
+$\Delta$Ph1 & [2,3,4,5] & 0.885 & 0.858 & 0.773 & 0.965 & 0.973 & 0.846 \\
+$\Delta$Ph2 & [1,3,4,5] & 0.896 & 0.873 & 0.722 & 0.965 & 0.987 & 0.829 \\
+$\Delta$Ph3 & [1,2,4,5] & 0.926 & 0.769 & 0.506 & 0.961 & 0.967 & 0.838 \\
+$\Delta$Ph4 & [1,2,3,5] & 0.923 & 0.748 & 0.759 & 0.991 & 0.993 & 0.957 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Multi-Seed Results (3 Seeds: 42, 123, 456)}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Phase ablation multi-seed results.}
+\label{tab:ablation_multi}
+\begin{tabular}{lcccccc}
+\toprule
+Model & S1 & S2.1 & S2.2 & S2.4 & S2.5 & Probe \\
+\midrule
+Baseline (5 seeds) & 0.925$\pm$0.002 & 0.802$\pm$0.040 & 0.811$\pm$0.038 & 0.961$\pm$0.008 & 0.983$\pm$0.010 & 0.814$\pm$0.018 \\
+$\Delta$Ph1 & 0.878$\pm$0.007 & 0.723$\pm$0.068 & 0.813$\pm$0.028 & 0.960$\pm$0.004 & 0.984$\pm$0.001 & 0.829$\pm$0.025 \\
+$\Delta$Ph2 & 0.894$\pm$0.004 & 0.838$\pm$0.026 & 0.781$\pm$0.027 & 0.981$\pm$0.007 & 0.983$\pm$0.012 & 0.926$\pm$0.026 \\
+$\Delta$Ph3 & 0.925$\pm$0.004 & 0.788$\pm$0.035 & 0.531$\pm$0.138 & 0.970$\pm$0.013 & 0.976$\pm$0.015 & 0.860$\pm$0.063 \\
+$\Delta$Ph4 & 0.923$\pm$0.002 & 0.712$\pm$0.025 & 0.649$\pm$0.065 & 0.990$\pm$0.003 & 0.992$\pm$0.002 & 0.929$\pm$0.021 \\
+$\Delta$Ph5 & 0.933$\pm$0.002 & 0.789$\pm$0.091 & 0.938$\pm$0.021 & \textbf{0.001$\pm$0.000} & 0.000$\pm$0.001 & 0.003$\pm$0.004 \\
+Shuffle & 0.927$\pm$0.001 & 0.855$\pm$0.091 & 0.966$\pm$0.020 & 0.427$\pm$0.308 & 0.366$\pm$0.250 & 0.308$\pm$0.193 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Notable finding: $\Delta$Ph4 Probe anomaly.} $\Delta$Ph4 (skipping the article phase) produces Probe = 0.929 $\pm$ 0.021 (3-seed mean), higher than the baseline (0.814 $\pm$ 0.018). This suggests that article-phase training consumes model capacity without contributing to interaction generalization.
+
+%==============================================================================
+\section[Complete 13x13 Dimension Ablation Matrix]{Complete 13$\times$13 Dimension Ablation Matrix (Table 9 Detail)}
+%==============================================================================
+
+Referenced in \S3.6.1. Single seed (seed = 42), S2.1 name format. Each cell = change in prediction accuracy for the column dimension when the row dimension is ablated (masked). Cells with $|$effect$| \geq 0.10$ are shown in bold.
+
+\begin{table}[htbp]
+\centering
+\tiny
+\caption{Complete 13$\times$13 dimension ablation matrix.}
+\label{tab:dimablation_full}
+\begin{tabular}{l|ccccccccccccc}
+\toprule
+ & T & H & M & V & Z & A & W & R & O & S & F & L & An \\
+\midrule
+\textbf{T} & --- & $-$.055 & .017 & $-$.017 & $-$.051 & $-$.017 & $-$.024 & $-$.003 & $-$.014 & $-$.071 & $-$.017 & $-$.072 & .004 \\
+\textbf{H} & .024 & --- & .007 & $-$.031 & .004 & .021 & $-$.021 & .004 & $-$.010 & .000 & $-$.004 & .003 & .007 \\
+\textbf{M} & .014 & .024 & --- & $-$.038 & $-$.006 & .011 & .003 & .004 & $-$.044 & $-$.007 & $-$.004 & .024 & .007 \\
+\textbf{V} & .007 & .000 & \textbf{+.211} & --- & $-$.010 & .011 & $-$.007 & .000 & .000 & $-$.007 & .000 & $-$.007 & $-$.054 \\
+\textbf{Z} & $-$.007 & $-$.017 & .000 & .047 & --- & $-$.003 & $-$.004 & $-$.003 & $-$.014 & $-$.037 & $-$.011 & .007 & .004 \\
+\textbf{A} & $-$.010 & .010 & $-$.003 & .020 & \textbf{$-$.370} & --- & $-$.021 & .011 & $-$.007 & .027 & .013 & .000 & \textbf{$-$.102} \\
+\textbf{W} & $-$.010 & .017 & .007 & $-$.028 & .000 & \textbf{+.119} & --- & .014 & $-$.010 & $-$.013 & $-$.011 & .010 & .007 \\
+\textbf{R} & $-$.007 & .000 & .017 & .020 & $-$.006 & $-$.010 & .085 & --- & \textbf{$-$.136} & .014 & .006 & $-$.004 & .004 \\
+\textbf{O} & .010 & .034 & $-$.024 & $-$.051 & $-$.013 & .000 & $-$.007 & .072 & --- & $-$.024 & $-$.004 & .000 & .000 \\
+\textbf{S} & $-$.003 & .007 & .017 & $-$.014 & .000 & $-$.003 & $-$.024 & .017 & $-$.021 & --- & .000 & $-$.004 & $-$.020 \\
+\textbf{F} & .000 & .014 & .014 & .006 & .000 & $-$.027 & .003 & .011 & $-$.027 & .058 & --- & $-$.007 & .000 \\
+\textbf{L} & $-$.047 & .007 & .003 & $-$.011 & $-$.010 & $-$.017 & .000 & .014 & $-$.010 & $-$.010 & \textbf{+.153} & --- & $-$.003 \\
+\textbf{An} & .000 & .007 & .014 & .020 & .011 & $-$.044 & $-$.011 & .014 & $-$.034 & .031 & .010 & .020 & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Selected significant dependencies ($|$effect$| > 0.10$): V$\rightarrow$M (+0.211), A$\rightarrow$Z ($-$0.370), A$\rightarrow$An ($-$0.102), W$\rightarrow$A (+0.119), R$\rightarrow$O ($-$0.136), L$\rightarrow$F (+0.153).
+
+%==============================================================================
+\section{Attention Specificity Full Table (Table 10 Detail)}
+%==============================================================================
+
+Referenced in \S3.7.1. Single seed (seed = 42). Specificity = ratio of attention weight on the corresponding P-array position to the uniform baseline (1/sequence\_length). Entries with specificity $>$ 3.0 are shown in bold.
+
+\subsection{Layer 0 Full Detail}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Attention specificity Layer 0 (Seed 42).}
+\label{tab:attention_l0}
+\begin{tabular}{lccccc}
+\toprule
+Dimension & Head 0 & Head 1 & Head 2 & Head 3 & Max \\
+\midrule
+T (temperature) & 0.80 & 1.24 & \textbf{3.65} & 0.94 & \textbf{3.65} \\
+H (hardness) & 1.00 & 1.64 & 1.49 & 0.88 & 1.64 \\
+M (moisture) & \textbf{3.09} & 1.27 & 2.65 & 1.87 & \textbf{3.09} \\
+V (brightness) & 0.70 & 1.68 & 0.79 & \textbf{8.61} & \textbf{8.61} \\
+Z (size) & 1.80 & 1.66 & \textbf{3.81} & 1.14 & \textbf{3.81} \\
+A (auditory) & 0.85 & 1.75 & 0.47 & 1.05 & 1.75 \\
+W (weight) & 1.18 & 2.05 & 1.62 & 2.00 & 2.05 \\
+R (texture) & 0.70 & \textbf{3.55} & 1.82 & \textbf{3.85} & \textbf{3.85} \\
+O (opacity) & \textbf{3.88} & 1.26 & \textbf{3.37} & 1.83 & \textbf{3.88} \\
+S (speed) & 2.09 & 1.70 & \textbf{3.03} & 1.31 & \textbf{3.03} \\
+F (olfactory) & 0.88 & 1.25 & 0.95 & 0.79 & 1.25 \\
+L (vitality) & 0.88 & \textbf{3.29} & 0.50 & 0.44 & \textbf{3.29} \\
+An (animacy) & 0.94 & 2.61 & 0.51 & 1.17 & 2.61 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Layers 1--3: Maximum Specificity per Dimension}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Maximum attention specificity per dimension (Layers 1--3).}
+\label{tab:attention_l123}
+\begin{tabular}{lccc}
+\toprule
+Dimension & Layer 1 max & Layer 2 max & Layer 3 max \\
+\midrule
+T & 1.14 & \textbf{4.54} & 1.89 \\
+H & 0.71 & 1.34 & 0.84 \\
+M & 2.85 & 1.61 & 0.60 \\
+V & 1.41 & 2.29 & 0.70 \\
+Z & \textbf{5.04} & \textbf{3.74} & 0.95 \\
+A & \textbf{3.77} & \textbf{4.00} & 1.48 \\
+W & 0.57 & 0.57 & 1.38 \\
+R & 1.94 & 0.86 & 1.61 \\
+O & \textbf{6.11} & 1.35 & 1.41 \\
+S & 0.81 & \textbf{4.78} & \textbf{5.79} \\
+F & 0.81 & 0.46 & 2.41 \\
+L & 0.59 & 2.10 & \textbf{8.43} \\
+An & \textbf{5.31} & \textbf{5.14} & 0.89 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%==============================================================================
+\section{Seed 42 Outlier Analysis}
+%==============================================================================
+
+Seed 42 exhibits a distinctive pattern across multiple experiments: strong forward performance paired with weak name-format reverse inference but strong interaction-format reverse inference.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Seed 42 outlier analysis.}
+\label{tab:seed42}
+\begin{tabular}{lccc}
+\toprule
+Metric & Seed 42 & Other 4 seeds (mean) & Direction \\
+\midrule
+S2.4 Interaction (forward) & 0.975 & 0.957 & $\uparrow$ highest \\
+A-group reverse (name format) & 0.432 & 0.710 & $\downarrow$ lowest \\
+E-group reverse (interaction format) & 0.969 & 0.811 & $\uparrow$ highest \\
+C-group desc:name ratio & 2.5:1 & 6.6:1 & $\downarrow$ lowest \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Interpretation:} This seed's model allocated more capacity to the forward interaction pathway at the expense of name-format reverse inference. The interaction format provides richer context (two entities, gender markers, case markers, rule token) than the name format (single entity name), which compensates for the reduced reverse capacity.
+
+%==============================================================================
+\section{Probe Methodology}
+%==============================================================================
+
+All linear probing results reported in the main text (Tables 10--13) use ridge regression with leave-one-out cross-validation, implemented as a closed-form solution in PyTorch. This method was chosen over logistic regression (sklearn) used in preliminary single-seed experiments because (a) it avoids numerical overflow from hidden-state magnitudes and (b) ridge regression provides more conservative accuracy estimates.
+
+Preliminary results (seed = 42, sklearn LogisticRegression) showed higher absolute values---e.g., causal intervention Layer 0 = 0.727 vs.\ 0.533 $\pm$ 0.048 with ridge regression---but identical qualitative patterns: the monotonic decay from Layer 0 to Layer 3, the Layer 0$\rightarrow$1 jump at masked prediction sites, and the Layer 3 = 0.000 result are all invariant to probe method.
+
+%==============================================================================
+\section{Reproducibility}
+%==============================================================================
+
+\subsection{Training Non-Determinism}
+
+Retraining with identical parameters and seed produces slightly different results due to CUDA non-deterministic operations (e.g., atomicAdd in scatter operations) and potential library version differences. In one test, seed = 42 produced novel entity generalization of 7.4/13 on the original run and 5.4/13 on a rerun with identical configuration. All reported results use the original training run for each seed.
+
+\subsection{Seed Specification}
+
+Two different 3-seed subsets are used for different analyses:
+\begin{itemize}
+    \item \textbf{Phase ablation (Table 8, $\Delta$Ph5 and Shuffle):} seeds 42, 123, 456
+    \item \textbf{Mechanistic analysis (Tables 10--13):} seeds 1024, 123, 42
+\end{itemize}
+
+The 5-seed analyses (Tables 1, 3, 4, 6, 7) use all five seeds: 42, 123, 456, 789, 1024.
+
+\subsection{Scaling Experiments}
+
+All scaling variants (Table 2: XS at d=32, M at d=128, L at d=256, and the 2-layer variant) were trained with seed = 42 only.
+
+\subsection{Chance Baseline}
+
+The theoretical chance baseline for novel entity generalization under argmax evaluation is 3.2/13 (11 five-level dimensions $\times$ 1/5 + 2 two-level dimensions $\times$ 1/2 = 2.2 + 1.0). Under the per-dimension accuracy criterion ($\geq$ 0.99) used in the main evaluation, chance performance is effectively 0/13.
+
+%==============================================================================
+\section{Software and Hardware}
+%==============================================================================
+
+All experiments were conducted on an \textbf{Apple M4 chip with 16 GB unified memory} (no discrete GPU). Training time for the 228K-parameter bidir30 model through Phase 5 (the primary experimental model) is approximately \textbf{17 minutes} per seed ($\sim$11,850 steps, $\sim$1,050 seconds). Training through Phase 6 (linguistic autonomy) adds approximately \textbf{5 additional minutes} per seed ($\sim$19,550 additional steps, $\sim$290 seconds), for a total of approximately \textbf{22 minutes} per seed to complete all six phases ($\sim$31,400 total steps).
+
+The full experimental pipeline---5-seed baseline, 3-seed phase ablation ($\Delta$Ph1--$\Delta$Ph5, Shuffle), 4 extended permutations (S-A, S-B, S-C, $\Delta$34), scaling variants (XS, M, L, 2-layer), bidirectional comparison (0\%, 15\%, 30\% $\times$ 5 seeds each), and all supplementary analyses---completes in approximately \textbf{24 hours} on this hardware.
+
+%==============================================================================
+\section{Positioning Comparison}
+%==============================================================================
+
+Referenced in \S4.1 of the main text. This table compares seven systems across six capability dimensions, showing that no prior system occupies the intersection of full mechanistic decomposability and the complete perception-to-language-to-reasoning pathway.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Positioning comparison across seven systems.}
+\label{tab:positioning}
+\begin{tabular}{lcccccc}
+\toprule
+System & \rotatebox{60}{Perceptual input} & \rotatebox{60}{Grounded naming} & \rotatebox{60}{Causal reasoning} & \rotatebox{60}{Linguistic autonomy} & \rotatebox{60}{Full decomposability} & \rotatebox{60}{Ablation control} \\
+\midrule
+GPT-4 / Gemini & $\times$ & $\times$ & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ \\
+Multimodal LLMs & $\checkmark$ & ? & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ \\
+CVCL (Vong \& Lake, 2024) & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+Emergent communication & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ \\
+BabyLM entrants & $\times$ & $\times$ & ? & $\times$ & $\checkmark$ & $\times$ \\
+Wu et al.\ testbed (2025) & $\checkmark$ & $\checkmark$ & $\times$ & $\times$ & $\checkmark$ & $\times$ \\
+\textbf{This work} & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Legend:} $\checkmark$ = capability present; $\times$ = capability absent; ? = unclear or partial.
+
+\textbf{Interpretation:} Large-scale models achieve linguistic autonomy and causal reasoning but lack mechanistic decomposability and controlled ablation. Developmental and emergent communication systems achieve decomposability but stop before causal reasoning or linguistic autonomy. Our system is the first to traverse the complete pathway while remaining fully inspectable.
+
+\end{document}
