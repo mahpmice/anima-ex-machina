@@ -52,7 +52,7 @@ Contact: mahpmiceliu@gmail.com
 
 ## Quick Start
 
-**Requirements:** Python 3.10+, PyTorch 2.0+. No GPU required (runs on Apple M-series / CPU).
+**Requirements:** Python 3.10+, PyTorch 2.0+, NumPy, SciPy, scikit-learn, matplotlib No GPU required (runs on Apple M-series / CPU).
 
 ```bash
 # Train the primary model (bidir30, seed=42, Phases 1–5)
